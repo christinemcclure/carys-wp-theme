@@ -1,6 +1,4 @@
 ### Exclude everything unless implicitly added
-wp/*
-
 *.jpg
 *.txt
 *.shtml
@@ -16,9 +14,23 @@ argie/
 images/
 styles/
 
-# Exclude all WP files except themes
+# Exclude all WP files except modernize and modernize-child themes
+wp/*.php
+wp/*.html
+wp/*.txt
+wp/wp-admin
+wp/wp-includes
+wp/wp-snapshots
+wp/wp-content/*.php
+wp/wp-content/updraft/
+wp/wp-content/plugins/
+wp/wp-content/uploads/
+
+# theme info to exclude
+wp/wp-content/themes/twenty*
+wp/wp-content/themes/*.php
+
 
 ### Exclude existing 10 files
 ### OS files
 nbproject/
-

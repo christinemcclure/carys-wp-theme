@@ -14,6 +14,12 @@ Modified from
 Playing with Fire 
 http://www.colourlovers.com/palette/1636937/Playing_with_Fire
 */
+h1, h2, h3, h4, h5, h6, .gdl-title {
+  font-family: "Ruda", Verdana, Arial, sans-serif; }
+
+h1.stunning-text-title {
+  font-family: "Aclonica", Verdana, Arial, sans-serif; }
+
 /**** TEST AREA ****/
 .tiltLeft {
   -webkit-transform: rotate(-2deg);
@@ -38,8 +44,10 @@ body.page h1.stunning-text-title {
   background: #910000; }
   #nav .search-wrapper {
     margin: 0 30px 0 0; }
-  #nav li a {
-    color: #332f25; }
+  #nav ul#menu-main-1 li {
+    font-size: 15px; }
+    #nav ul#menu-main-1 li a {
+      color: #332f25; }
 
 body, .body-wrapper, html {
   background: #02b1b6; }
@@ -410,7 +418,7 @@ p.bumpUp {
     width: 60%;
     float: left;
     text-align: right;
-    margin: 0 0 0 5%; }
+    margin: 40px 0 0 0; }
 
   #jeepers {
     width: 30%;

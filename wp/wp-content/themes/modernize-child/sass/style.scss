@@ -14,30 +14,18 @@ $siteTitleFont: 'Aclonica', Verdana, Arial,  sans-serif;
 $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 
-
-
-/* COLORS (move to theme later) */
-
-/* Fifty Today
-  http://www.colourlovers.com/palette/249454/fifty_today
-*/
-$ltBlue: #BFD9D9;
-$teal: #738D85;
-$maroon: #724B56;
-$red: #AC5050;
-$orange: #ED6E5B;
-$cream: #FFF8E7;
-$black: #332F25;
-
-/*Playing with Fire 
+/*
+COLORS:
+Modified from
+Playing with Fire 
 http://www.colourlovers.com/palette/1636937/Playing_with_Fire
 */
-$mustard: #C8AF14;
-$brown: #9D7E45;
-$red: #910000;
-$beige: #E4D4BD;
-$teal: #02B1B6;
-
+$mustard: rgb(200,175,20);
+$brown: rgb(157,126,69);
+$red: rgb(145,0,0);
+$beige: rgb(228,212,189);
+$teal: rgb(2,177,182);
+$black: rgb(51,47,37);
 
 
 $background: $teal;

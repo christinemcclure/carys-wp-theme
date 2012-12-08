@@ -8,64 +8,43 @@ Author: Goodlayers
 Author URI: http://goodlayers.com
 */
 /* FONTS (Google fonts set in Modernize theme) */
-/* COLORS (move to theme later) */
-/* Fifty Today
-  http://www.colourlovers.com/palette/249454/fifty_today
-*/
-/*Playing with Fire 
+/*
+COLORS:
+Modified from
+Playing with Fire 
 http://www.colourlovers.com/palette/1636937/Playing_with_Fire
 */
 /**** TEST AREA ****/
-/* line 51, sass/style.scss */
 .tiltLeft {
   -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-}
+  -moz-transform: rotate(-2deg); }
 
-/* line 54, sass/style.scss */
 .tiltRight {
   -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-}
+  -moz-transform: rotate(2deg); }
 
-/* line 59, sass/style.scss */
 .border {
   padding: 20px;
-  background: white url("images/vintage_speckles.png") repeat-x top left;
-}
+  background: white url("images/vintage_speckles.png") repeat-x top left; }
 
-/* line 65, sass/style.scss */
 .page-wrapper {
-  margin: 20px 0 0 0;
-}
+  margin: 20px 0 0 0; }
 
-/* line 69, sass/style.scss */
 #nav {
-  background: #910000;
-}
-/* line 76, sass/style.scss */
-#nav .search-wrapper {
-  margin: 0 30px 0 0;
-}
-/* line 78, sass/style.scss */
-#nav li a {
-  color: #332f25;
-}
+  background: #910000; }
+  #nav .search-wrapper {
+    margin: 0 30px 0 0; }
+  #nav li a {
+    color: #332f25; }
 
-/* line 85, sass/style.scss */
 body, .body-wrapper, html {
-  background: #02b1b6;
-}
+  background: #02b1b6; }
 
-/* line 86, sass/style.scss */
 .content-wrapper, div.container {
-  background: #e4d4bd;
-}
+  background: #e4d4bd; }
 
-/* line 87, sass/style.scss */
 .footer-wrapper {
-  background: #9d7e45;
-}
+  background: #9d7e45; }
 
 /*
 #mask-test{
@@ -82,523 +61,360 @@ p.mini {
 }
 */
 /* GENERIC */
-/* line 111, sass/style.scss */
 body .container {
-  padding: 10px;
-}
+  padding: 10px; }
 
-/* line 114, sass/style.scss */
 .floatLeft {
-  float: left;
-}
+  float: left; }
 
-/* line 115, sass/style.scss */
 .floatRight {
-  float: right;
-}
+  float: right; }
 
-/* line 116, sass/style.scss */
 .clearRight {
-  clear: right;
-}
+  clear: right; }
 
-/* line 118, sass/style.scss */
 img.size-full {
-  margin: 20px;
-}
+  margin: 20px; }
 
 /**** HEADER ****/
-/* line 121, sass/style.scss */
 #header {
   width: 95%;
   background: url("images/header.jpg") no-repeat top center;
   margin: 20px 0 0 0;
-  border: 10px solid #332f25;
-}
-/* line 124, sass/style.scss */
-#header p {
-  font-family: "Ruda", Verdana, Arial, sans-serif;
-}
+  border: 10px solid #332f25; }
+  #header p {
+    font-family: "Ruda", Verdana, Arial, sans-serif; }
 
-/* line 129, sass/style.scss */
 .header-wrapper {
-  padding: 10px 0 0 0;
-}
+  padding: 10px 0 0 0; }
 
-/* line 133, sass/style.scss */
 .navigation-wrapper {
-  margin: 10px 0 0 0;
-}
+  margin: 10px 0 0 0; }
 
-/* line 137, sass/style.scss */
 #menu-main-1 li {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 /**** BODY ****/
 /* page title */
-/* line 144, sass/style.scss */
 h1.gdl-page-title {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
-/* line 146, sass/style.scss */
 h2 {
-  margin-top: 24px;
-}
+  margin-top: 24px; }
 
-/* line 148, sass/style.scss */
 div.gallery-thumbnail-image img {
-  width: 120px;
-}
+  width: 120px; }
 
-/* line 152, sass/style.scss */
 p.bumpDown {
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
-/* line 155, sass/style.scss */
 p.bumpUp {
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
-/* line 160, sass/style.scss */
 .container .footer-wrapper {
   width: 100%;
   min-height: 50px;
   margin: 0;
   font-size: 14px;
-  line-height: 12px;
-}
-/* line 166, sass/style.scss */
-.container .footer-wrapper p {
-  margin: 10px 10px 0 10px;
-}
-/* line 167, sass/style.scss */
-.container .footer-wrapper p + p {
-  margin-bottom: 10px;
-}
-/* line 168, sass/style.scss */
-.container .footer-wrapper #footer1, .container .footer-wrapper #footer2, .container .footer-wrapper #footer3 {
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-/* line 169, sass/style.scss */
-.container .footer-wrapper #footer1 a img, .container .footer-wrapper #footer2 a img, .container .footer-wrapper #footer3 a img {
-  float: left;
-  margin: 20px 10px 0 10px;
-}
-/* line 175, sass/style.scss */
-.container .footer-wrapper #footer1 #contact, .container .footer-wrapper #footer2 #contact, .container .footer-wrapper #footer3 #contact {
-  margin-right: 0;
-}
-/* line 178, sass/style.scss */
-.container .footer-wrapper #footer2 {
-  width: 100px;
-  margin-left: 40%;
-}
+  line-height: 12px; }
+  .container .footer-wrapper p {
+    margin: 10px 10px 0 10px; }
+  .container .footer-wrapper p + p {
+    margin-bottom: 10px; }
+  .container .footer-wrapper #footer1, .container .footer-wrapper #footer2, .container .footer-wrapper #footer3 {
+    float: left;
+    width: 100%;
+    text-align: center; }
+    .container .footer-wrapper #footer1 a img, .container .footer-wrapper #footer2 a img, .container .footer-wrapper #footer3 a img {
+      float: left;
+      margin: 20px 10px 0 10px; }
+    .container .footer-wrapper #footer1 #contact, .container .footer-wrapper #footer2 #contact, .container .footer-wrapper #footer3 #contact {
+      margin-right: 0; }
+  .container .footer-wrapper #footer2 {
+    width: 100px;
+    margin-left: 40%; }
 
 /* Google Calendar Events */
-/* line 192, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-caption {
   /* Caption at top of calendar */
   color: #333333;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 197, sass/style.scss */
 .gce-page-grid .gce-calendar {
   /* Main calendar table */
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #9d7e45;
-  color: #9d7e45;
-}
+  color: #9d7e45; }
 
-/* line 204, sass/style.scss */
 .gce-page-grid .gce-calendar th {
   /* Day headings (S, M etc.) */
   border: 1px solid #9d7e45;
   text-align: center;
   width: 14.29%;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 211, sass/style.scss */
 .gce-page-grid .gce-calendar td {
   /* Day table cells */
   border: 1px solid #9d7e45;
   text-align: center;
   height: 80px;
   vertical-align: middle;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 219, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-has-events {
   /* Table cells with events */
   color: #910000;
   background: #c8af14;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-/* line 225, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-event-info {
   /* Event information */
   display: none;
-  /* Important! */
-}
+  /* Important! */ }
 
-/* line 229, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-day-number {
   /* Day number span */
-  font-size: 2em;
-}
+  font-size: 2em; }
 
-/* line 233, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-today {
   /* Table cell that represents today */
-  background-color: #DDDDDD;
-}
+  background-color: #DDDDDD; }
 
-/* line 238, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-next,
 .gce-page-grid .gce-calendar .gce-prev {
   /* Previous and next month links */
   cursor: pointer;
   display: inline-block;
-  width: 3%;
-}
+  width: 3%; }
 
-/* line 244, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-month-title {
   /* Month title */
   display: inline-block;
-  width: 90%;
-}
+  width: 90%; }
 
-/* line 249, sass/style.scss */
 .gce-page-grid .gce-calendar th abbr {
   /* Day letter abbreviation */
-  border-bottom: none;
-}
+  border-bottom: none; }
 
 /* PAGE LIST */
-/* line 255, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 260, sass/style.scss */
 .gce-page-list .gce-list p span,
 .gce-page-list .gce-list div span {
   /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
+  color: #999999; }
 
-/* line 264, sass/style.scss */
 .gce-page-list .gce-list .gce-list-event {
   /* The event title */
-  background-color: #DDDDDD;
-}
+  background-color: #DDDDDD; }
 
-/* line 268, sass/style.scss */
 .gce-page-list .gce-list .gce-list-title {
   /* The title (not the same as event title) */
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 272, sass/style.scss */
 .gce-page-list .gce-list ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /* WIDGET GRID */
-/* line 280, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-caption {
   text-align: center;
-  margin: 0 0 10px 0;
-}
+  margin: 0 0 10px 0; }
 
-/* line 285, sass/style.scss */
 .gce-widget-grid .gce-calendar {
   /* Main calendar table */
   width: 100%;
   border: 1px solid #CCCCCC;
-  border-collapse: collapse;
-}
+  border-collapse: collapse; }
 
-/* line 291, sass/style.scss */
 .gce-widget-grid .gce-calendar th {
   /* Day headings (S, M etc.) */
   width: 14.29%;
   border: 1px solid #CCCCCC;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 297, sass/style.scss */
 .gce-widget-grid .gce-calendar td {
   /* Day table cells */
   color: #CCCCCC;
   width: 14.29%;
   border: 1px solid #CCCCCC;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 304, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-has-events {
   /* Table cells with events */
   cursor: pointer;
-  color: #666666;
-}
+  color: #666666; }
 
-/* line 309, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-today {
   /* Table cell that represents today */
-  background-color: #DDDDDD;
-}
+  background-color: #DDDDDD; }
 
-/* line 313, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-event-info {
   /* Event information */
   display: none;
-  /* Important! */
-}
+  /* Important! */ }
 
-/* line 318, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-next,
 .gce-widget-grid .gce-calendar .gce-prev {
   /* Prev and next month links */
   cursor: pointer;
   display: inline-block;
-  width: 5%;
-}
+  width: 5%; }
 
-/* line 324, sass/style.scss */
 .gce-widget-grid .gce-calendar .gce-month-title {
   /* Month title in caption at top of table */
   display: inline-block;
-  width: 80%;
-}
+  width: 80%; }
 
-/* line 329, sass/style.scss */
 .gce-widget-grid .gce-calendar th abbr {
   /* Day name abbreviations */
-  border-bottom: none;
-}
+  border-bottom: none; }
 
 /* WIDGET LIST */
-/* line 335, sass/style.scss */
 .gce-widget-list .gce-list p {
   /* Each piece of information in the list */
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 340, sass/style.scss */
 .gce-widget-list .gce-list p span,
 .gce-widget-list .gce-list div span {
   /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
+  color: #999999; }
 
-/* line 344, sass/style.scss */
 .gce-widget-list .gce-list .gce-list-event {
   /* The event title */
-  background-color: #DDDDDD;
-}
+  background-color: #DDDDDD; }
 
-/* line 348, sass/style.scss */
 .gce-widget-list .gce-list .gce-list-title {
   /* The title (not the same as event title) */
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 352, sass/style.scss */
 .gce-widget-list .gce-list ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /* TOOLTIP */
-/* line 360, sass/style.scss */
 .gce-event-info {
   /* Tooltip container */
   background-color: #FFFFFF;
   border: 1px solid #333333;
-  max-width: 300px;
-}
+  max-width: 300px; }
 
-/* line 366, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
   font-weight: bold;
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
-/* line 372, sass/style.scss */
 .gce-event-info ul {
   /* Events list */
   padding: 0;
   margin: 5px;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
-/* line 378, sass/style.scss */
 .gce-event-info ul li {
   /* Event list item */
-  margin: 10px 0 0 0;
-}
+  margin: 10px 0 0 0; }
 
-/* line 382, sass/style.scss */
 .gce-event-info ul li p {
   /* Each piece of information */
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 387, sass/style.scss */
 .gce-event-info ul li p span,
 .gce-event-info ul li div span {
   /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
+  color: #999999; }
 
-/* line 391, sass/style.scss */
 .gce-event-info .gce-tooltip-event {
   /* The event title */
   background-color: #DDDDDD;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* keep sidebar grid from floating into page */
-/* line 398, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 402, sass/style.scss */
 .gcalendar {
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
-/* line 405, sass/style.scss */
 .gce-list {
-  list-style: none;
-}
+  list-style: none; }
 
 /* make tiny month change arrows bigger */
-/* line 410, sass/style.scss */
 .gce-change-month {
-  font-size: 200%;
-}
+  font-size: 200%; }
 
 /*Make Ajax calendar match site font */
-/* line 419, sass/style.scss */
 .gce-month-title {
   font-family: "Ruda", Verdana, Arial, sans-serif;
-  font-size: 125%;
-}
+  font-size: 125%; }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 950px) {
-  /* line 433, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
-    margin-bottom: 40px;
-  }
+    margin-bottom: 40px; }
 
-  /* line 438, sass/style.scss */
   #header {
-    padding: 40px 10px 30px 10px;
-  }
-  /* line 440, sass/style.scss */
-  #header h1 {
-    font-size: 60px;
-  }
-  /* line 443, sass/style.scss */
-  #header p {
-    font-size: 20px;
-    margin: 20px 0 0 40px;
-    color: #fff;
-  }
+    padding: 40px 10px 30px 10px; }
+    #header h1 {
+      font-size: 60px; }
+    #header p {
+      font-size: 20px;
+      margin: 20px 0 0 40px;
+      color: #fff; }
 
-  /* line 451, sass/style.scss */
   .container .footer-wrapper {
-    width: 960px;
-  }
-  /* line 452, sass/style.scss */
-  .container .footer-wrapper p {
-    text-align: left;
-  }
-  /* line 454, sass/style.scss */
-  .container .footer-wrapper #footer1 {
-    width: 60%;
-    float: left;
-  }
-  /* line 459, sass/style.scss */
-  .container .footer-wrapper #footer2 {
-    width: 10%;
-    margin: 0 0 0 20px;
-    float: left;
-  }
-  /* line 465, sass/style.scss */
-  .container .footer-wrapper #footer3 {
-    width: 25%;
-    float: right;
-  }
-  /* line 468, sass/style.scss */
-  .container .footer-wrapper #footer3 p {
-    text-align: right;
-  }
+    width: 960px; }
+    .container .footer-wrapper p {
+      text-align: left; }
+    .container .footer-wrapper #footer1 {
+      width: 60%;
+      float: left; }
+    .container .footer-wrapper #footer2 {
+      width: 10%;
+      margin: 0 0 0 20px;
+      float: left; }
+    .container .footer-wrapper #footer3 {
+      width: 25%;
+      float: right; }
+      .container .footer-wrapper #footer3 p {
+        text-align: right; }
 
   /*Home Page*/
-  /* line 474, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
-    margin: 0 0 30px 10%;
-  }
+    margin: 0 0 30px 10%; }
 
-  /* line 480, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
-    margin: 0 0 40px 5%;
-  }
+    margin: 0 0 40px 5%; }
 
-  /* line 487, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
     margin: 0 0 0 5%;
-    text-align: right;
-  }
+    text-align: right; }
 
-  /* line 494, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
     text-align: right;
-    margin: 0 0 0 5%;
-  }
+    margin: 0 0 0 5%; }
 
-  /* line 500, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
-    text-align: left;
-  }
-  /* line 505, sass/style.scss */
-  #jeepers h4 {
-    font-size: 90%;
-    font-style: italic;
-    margin: 0 0 10px 20px;
-  }
-}
+    text-align: left; }
+    #jeepers h4 {
+      font-size: 90%;
+      font-style: italic;
+      margin: 0 0 10px 20px; } }
 /*end min 768 */

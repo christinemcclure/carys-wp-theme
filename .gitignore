@@ -9,6 +9,8 @@
 /*.jpeg
 .wy*
 /*.ico
+/images/
+/styles/
 
 argie/
 # Exclude all WP files except modernize and modernize-child themes

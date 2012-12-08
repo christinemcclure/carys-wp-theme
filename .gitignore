@@ -1,0 +1,23 @@
+### Exclude everything unless implicitly added
+wp/*
+
+*.jpg
+*.txt
+*.shtml
+.ht*
+*.txt
+*.zip
+.smil*
+*.jpeg
+.wy*
+*.ico
+
+argie/
+images/
+styles/
+
+# Exclude all WP files except themes
+
+### Exclude existing 10 files
+### OS files
+

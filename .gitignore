@@ -11,9 +11,6 @@
 *.ico
 
 argie/
-images/
-styles/
-
 # Exclude all WP files except modernize and modernize-child themes
 wp/*.php
 wp/*.html
@@ -34,3 +31,6 @@ wp/wp-content/themes/*.php
 ### Exclude existing 10 files
 ### OS files
 nbproject/
+*.DS_Store*
+
+

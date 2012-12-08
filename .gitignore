@@ -32,5 +32,5 @@ wp/wp-content/themes/*.php
 ### OS files
 nbproject/
 *.DS_Store*
-
+*.sass-cache*
 

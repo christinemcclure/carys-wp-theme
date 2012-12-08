@@ -1,14 +1,14 @@
 ### Exclude everything unless implicitly added
-*.jpg
-*.txt
-*.shtml
+/*.jpg
+/*.txt
+/*.shtml
 .ht*
-*.txt
-*.zip
-.smil*
-*.jpeg
+/*.txt
+/*.zip
+/.smil*
+/*.jpeg
 .wy*
-*.ico
+/*.ico
 
 argie/
 # Exclude all WP files except modernize and modernize-child themes

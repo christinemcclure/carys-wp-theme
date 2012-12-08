@@ -20,4 +20,5 @@ styles/
 
 ### Exclude existing 10 files
 ### OS files
+nbproject/
 

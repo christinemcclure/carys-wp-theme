@@ -11,8 +11,7 @@
 *.ico
 
 argie/
-images/
-styles/
+
 
 # Exclude all WP files except modernize and modernize-child themes
 wp/*.php

@@ -27,7 +27,7 @@ $red: rgb(145,0,0);
 $beige: rgb(228,212,189);
 $teal: rgb(2,177,182);
 $black: rgb(51,47,37);
-$orange: rgb(239,127,44);
+$orange: darken(rgb(239,127,44),10%);
 
 $background: $teal;
 $pageColor: $beige;
@@ -40,6 +40,7 @@ $footerText: $orange;
 $navColor: $black;
 $mobileNavBackground: $beige;
 $navBackground: $red;
+$calendarBorder: lighten($black, 40%);
 
 
 // HEADINGS
@@ -200,37 +201,22 @@ div.gallery-thumbnail-image img{
 
 
 
-/* Google Calendar Events */
+// Google Calendar Events Plugin
 
-.gce-page-grid .gce-calendar .gce-caption{ /* Caption at top of calendar */
-	text-align:center;
+// Caledar grid
+.gce-calendar{
+ border: 1px solid $calendarBorder; 
 }
 
-.gce-page-grid .gce-calendar{ /* Main calendar table */
-	width:100%;
-	border-collapse:collapse;
-	border:1px solid $teal;
-	color:$black;
-}
-
-.gce-page-grid .gce-calendar th{ /* Day headings (S, M etc.) */
-	border:1px solid $brown;
-	text-align:center;
-	width:14.29%;
-	padding:0;
-}
-
-.gce-page-grid .gce-calendar td{ /* Day table cells */
-	border:1px solid $brown;
+.gce-page-grid .gce-calendar td{ /* Full calendar table cells */
+	border:1px solid $calendarBorder;
 	text-align:center;
 	height:80px;
 	vertical-align:middle;
 	padding:0;
 }
 
-
-
-.gce-page-grid .gce-calendar .gce-event-info{ /* Event information */
+.gce-calendar .gce-event-info{ /* Event information */
 	display:none; /* Important! */
 }
 
@@ -238,48 +224,68 @@ div.gallery-thumbnail-image img{
 	font-size:2em;
 }
 
-.gce-page-grid .gce-calendar .gce-today{ /* Table cell that represents today */
-	background-color:#DDDDDD;
-}
-
-.gce-page-grid .gce-calendar .gce-next,
-.gce-page-grid .gce-calendar .gce-prev{ /* Previous and next month links */
-	cursor:pointer;
+.gce-month-title{ /* Month title */
 	display:inline-block;
-	width:3%;
+	width:80%;
+  font-family:$headingFont;
+  font-size:16px;
 }
 
-.gce-page-grid .gce-calendar .gce-month-title{ /* Month title */
-	display:inline-block;
-	width:90%;
+
+/* make tiny month change arrows bigger */
+.gce-change-month {
+    font-size:28px;
 }
 
-.gce-page-grid .gce-calendar th abbr{ /* Day letter abbreviation */
-	border-bottom:none;
+
+.gce-page-grid{
+  .gce-month-title{ /* Month title */
+    font-size:26px;
+  }
+  .gce-change-month {
+      font-size:38px;
+  }
 }
+
 
 .gce-has-events{ /* Table cells with events */
-	color:$red;
   background:$orange;
 	cursor:pointer;
 }
-/* PAGE LIST */
+
+.gce-today{
+  background-color:darken($pageColor, 10%);
+}
+
+
+.gce-calendar th, .gce-calendar td{ /* Day headings (S, M etc.) */
+	width:14.29%;
+	border:1px solid $calendarBorder;
+	text-align:center;
+}
+
+
+.gce-day-past {
+  color: lighten($black,40%);
+}
+
+
+/* keep sidebar grid from floating into page */
+.gce-calendar th, .gce-calendar td {
+    padding:0;
+}
+
+.gcalendar{
+  margin:20px 0;
+}
+
+
+
+
+// Calendar page list
 
 .gce-page-list .gce-list p{ /* Each piece of information in the list */
 	margin:0;
-}
-
-.gce-page-list .gce-list p span,
-.gce-page-list .gce-list div span{ /* The text displayed before each piece of info, 'Starts:' for example */
-	color:#999999;
-}
-
-.gce-page-list .gce-list .gce-list-event{ /* The event title */
-	background-color:#DDDDDD;
-}
-
-.gce-page-list .gce-list .gce-list-title{ /* The title (not the same as event title) */
-	font-weight:bold;
 }
 
 .gce-page-list .gce-list ul{
@@ -288,87 +294,8 @@ div.gallery-thumbnail-image img{
 	padding:0;
 }
 
-/* WIDGET GRID */
 
-.gce-widget-grid .gce-calendar .gce-caption{
-	text-align:center;
-        margin: 0 0 10px 0;
-}
-
-.gce-widget-grid .gce-calendar{ /* Main calendar table */
-	width:100%;
-	border:1px solid $teal;
-	border-collapse:collapse;
-}
-
-.gce-widget-grid .gce-calendar th{ /* Day headings (S, M etc.) */
-	width:14.29%;
-	border:1px solid $teal;
-	text-align:center;
-}
-
-.gce-widget-grid .gce-calendar td{ /* Day table cells */
-	color:$black;
-	width:14.29%;
-	border:1px solid $teal;
-	text-align:center;
-}
-
-.gce-widget-grid .gce-calendar .gce-has-events{ /* Table cells with events */
-	cursor:pointer;
-	color:#666666;
-}
-
-.gce-widget-grid .gce-calendar .gce-today{ /* Table cell that represents today */
-	background-color:$teal;
-}
-
-.gce-widget-grid  .gce-calendar .gce-event-info{ /* Event information */
-	display:none; /* Important! */
-}
-
-.gce-widget-grid  .gce-calendar .gce-next,
-.gce-widget-grid  .gce-calendar .gce-prev{ /* Prev and next month links */
-	cursor:pointer;
-	display:inline-block;
-	width:5%;
-}
-
-.gce-widget-grid .gce-calendar .gce-month-title{ /* Month title in caption at top of table */
-	display:inline-block;
-	width:80%;
-}
-
-.gce-widget-grid .gce-calendar th abbr{ /* Day name abbreviations */
-	border-bottom:none;
-}
-
-/* WIDGET LIST */
-
-.gce-widget-list .gce-list p{ /* Each piece of information in the list */
-	margin:0;
-}
-
-.gce-widget-list .gce-list p span,
-.gce-widget-list .gce-list div span{ /* The text displayed before each piece of info, 'Starts:' for example */
-	color:#999999;
-}
-
-.gce-widget-list .gce-list .gce-list-event{ /* The event title */
-	background-color:#DDDDDD;
-}
-
-.gce-widget-list .gce-list .gce-list-title{ /* The title (not the same as event title) */
-	font-weight:bold;
-}
-
-.gce-widget-list .gce-list ul{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-
-/* TOOLTIP */
+/* CALENDAR TOOLTIP */
 
 .gce-event-info{ /* Tooltip container */
 	background-color:#FFFFFF;
@@ -380,58 +307,6 @@ div.gallery-thumbnail-image img{
 	margin:5px;
 	font-weight:bold;
 	font-size:1.2em;
-}
-
-.gce-event-info ul{ /* Events list */
-	padding:0;
-	margin:5px;
-	list-style-type:none;
-}
-
-.gce-event-info ul li{ /* Event list item */
-	margin:10px 0 0 0;
-}
-
-.gce-event-info ul li p{ /* Each piece of information */
-	margin:0;
-}
-
-.gce-event-info ul li p span,
-.gce-event-info ul li div span{ /* The text displayed before each piece of info, 'Starts:' for example */
-	color:#999999;
-}
-
-.gce-event-info .gce-tooltip-event{ /* The event title */
-	background-color:#DDDDDD;
-	font-weight:bold;
-}
-
-
-/* keep sidebar grid from floating into page */
-.gce-calendar th, .gce-calendar td {
-    padding:0;
-}
-
-.gcalendar{
-    margin:20px 0;
-}
-.gce-list{
-    list-style:none
-}
-
-/* make tiny month change arrows bigger */
-.gce-change-month {
-    font-size:200%;
-}
-
-.gce-caption {
-
-}
-
-/*Make Ajax calendar match site font */
-.gce-month-title {
-    font-family:$headingFont;
-    font-size:125%;
 }
 
 
@@ -524,3 +399,13 @@ div.gallery-thumbnail-image img{
 
 
 }/*end min 768 */
+
+div.left-sidebar-wrapper .custom-sidebar-title{
+  border:none;
+}
+
+.gdl-divider + .gdl-divider{
+  padding: 20px 0 0 0;
+  border-top:1px solid darken($pageColor, 20%);
+  border-bottom:1px solid $pageColor; // make the same color or Modernize original shows through
+}

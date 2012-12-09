@@ -302,31 +302,32 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 /* line 248, sass/style.scss */
 .gce-change-month {
   font-size: 28px;
+  cursor: pointer;
 }
 
-/* line 253, sass/style.scss */
+/* line 254, sass/style.scss */
 .gce-page-grid .gce-month-title {
   /* Month title */
   font-size: 26px;
 }
-/* line 256, sass/style.scss */
+/* line 257, sass/style.scss */
 .gce-page-grid .gce-change-month {
   font-size: 38px;
 }
 
-/* line 261, sass/style.scss */
+/* line 262, sass/style.scss */
 .gce-has-events {
   /* Table cells with events */
   background: #d86510;
   cursor: pointer;
 }
 
-/* line 266, sass/style.scss */
+/* line 267, sass/style.scss */
 .gce-today {
   background-color: #d5bc99;
 }
 
-/* line 270, sass/style.scss */
+/* line 271, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   /* Day headings (S, M etc.) */
   width: 14.29%;
@@ -334,29 +335,29 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   text-align: center;
 }
 
-/* line 276, sass/style.scss */
+/* line 277, sass/style.scss */
 .gce-day-past {
   color: #a39981;
 }
 
 /* keep sidebar grid from floating into page */
-/* line 281, sass/style.scss */
+/* line 282, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   padding: 0;
 }
 
-/* line 285, sass/style.scss */
+/* line 286, sass/style.scss */
 .gcalendar {
   margin: 20px 0;
 }
 
-/* line 292, sass/style.scss */
+/* line 293, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
   margin: 0;
 }
 
-/* line 296, sass/style.scss */
+/* line 297, sass/style.scss */
 .gce-list li {
   list-style-type: none;
   margin: 20px 0;
@@ -365,22 +366,22 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 }
 
 /* CALENDAR TOOLTIP */
-/* line 306, sass/style.scss */
+/* line 307, sass/style.scss */
 .gce-event-info {
   /* Tooltip container */
   background-color: #FFFFFF;
   border: 1px solid #333333;
   max-width: 300px;
 }
-/* line 311, sass/style.scss */
+/* line 312, sass/style.scss */
 .gce-event-info li {
   list-style-type: none;
 }
-/* line 313, sass/style.scss */
+/* line 314, sass/style.scss */
 .gce-event-info li p {
   margin: 0;
 }
-/* line 316, sass/style.scss */
+/* line 317, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
@@ -390,77 +391,77 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 950px) {
-  /* line 330, sass/style.scss */
+  /* line 331, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 335, sass/style.scss */
+  /* line 336, sass/style.scss */
   #nav {
     background: #910000;
   }
 
-  /* line 338, sass/style.scss */
+  /* line 339, sass/style.scss */
   #header {
     padding: 40px 10px 30px 10px;
   }
-  /* line 340, sass/style.scss */
+  /* line 341, sass/style.scss */
   #header h1 {
     font-size: 60px;
   }
-  /* line 343, sass/style.scss */
+  /* line 344, sass/style.scss */
   #header p {
     font-size: 20px;
     margin: 20px 0 0 40px;
     color: #fff;
   }
 
-  /* line 351, sass/style.scss */
+  /* line 352, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 352, sass/style.scss */
+  /* line 353, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 354, sass/style.scss */
+  /* line 355, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 359, sass/style.scss */
+  /* line 360, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 365, sass/style.scss */
+  /* line 366, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 368, sass/style.scss */
+  /* line 369, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 374, sass/style.scss */
+  /* line 375, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 381, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 388, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -468,7 +469,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     text-align: right;
   }
 
-  /* line 394, sass/style.scss */
+  /* line 395, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -476,14 +477,14 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     margin: 40px 0 0 0;
   }
 
-  /* line 400, sass/style.scss */
+  /* line 401, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 405, sass/style.scss */
+  /* line 406, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

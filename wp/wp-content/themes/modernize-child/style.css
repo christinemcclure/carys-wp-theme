@@ -160,15 +160,14 @@ div.gallery-thumbnail-image img {
 /* Google Calendar Events */
 .gce-page-grid .gce-calendar .gce-caption {
   /* Caption at top of calendar */
-  color: #333333;
   text-align: center; }
 
 .gce-page-grid .gce-calendar {
   /* Main calendar table */
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #9d7e45;
-  color: #9d7e45; }
+  border: 1px solid #02b1b6;
+  color: #332f25; }
 
 .gce-page-grid .gce-calendar th {
   /* Day headings (S, M etc.) */
@@ -184,12 +183,6 @@ div.gallery-thumbnail-image img {
   height: 80px;
   vertical-align: middle;
   padding: 0; }
-
-.gce-page-grid .gce-calendar .gce-has-events {
-  /* Table cells with events */
-  color: #910000;
-  background: #c8af14;
-  cursor: pointer; }
 
 .gce-page-grid .gce-calendar .gce-event-info {
   /* Event information */
@@ -219,6 +212,12 @@ div.gallery-thumbnail-image img {
 .gce-page-grid .gce-calendar th abbr {
   /* Day letter abbreviation */
   border-bottom: none; }
+
+.gce-has-events {
+  /* Table cells with events */
+  color: #910000;
+  background: #ef7f2c;
+  cursor: pointer; }
 
 /* PAGE LIST */
 .gce-page-list .gce-list p {
@@ -251,20 +250,20 @@ div.gallery-thumbnail-image img {
 .gce-widget-grid .gce-calendar {
   /* Main calendar table */
   width: 100%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #02b1b6;
   border-collapse: collapse; }
 
 .gce-widget-grid .gce-calendar th {
   /* Day headings (S, M etc.) */
   width: 14.29%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #02b1b6;
   text-align: center; }
 
 .gce-widget-grid .gce-calendar td {
   /* Day table cells */
-  color: #CCCCCC;
+  color: #332f25;
   width: 14.29%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #02b1b6;
   text-align: center; }
 
 .gce-widget-grid .gce-calendar .gce-has-events {
@@ -274,7 +273,7 @@ div.gallery-thumbnail-image img {
 
 .gce-widget-grid .gce-calendar .gce-today {
   /* Table cell that represents today */
-  background-color: #DDDDDD; }
+  background-color: #02b1b6; }
 
 .gce-widget-grid .gce-calendar .gce-event-info {
   /* Event information */

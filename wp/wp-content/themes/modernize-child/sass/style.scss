@@ -203,15 +203,14 @@ div.gallery-thumbnail-image img{
 /* Google Calendar Events */
 
 .gce-page-grid .gce-calendar .gce-caption{ /* Caption at top of calendar */
-	color:#333333;
 	text-align:center;
 }
 
 .gce-page-grid .gce-calendar{ /* Main calendar table */
 	width:100%;
 	border-collapse:collapse;
-	border:1px solid $brown;
-	color:$brown;
+	border:1px solid $teal;
+	color:$black;
 }
 
 .gce-page-grid .gce-calendar th{ /* Day headings (S, M etc.) */
@@ -229,11 +228,7 @@ div.gallery-thumbnail-image img{
 	padding:0;
 }
 
-.gce-page-grid .gce-calendar .gce-has-events{ /* Table cells with events */
-	color:$red;
-        background:$mustard;
-	cursor:pointer;
-}
+
 
 .gce-page-grid .gce-calendar .gce-event-info{ /* Event information */
 	display:none; /* Important! */
@@ -263,6 +258,11 @@ div.gallery-thumbnail-image img{
 	border-bottom:none;
 }
 
+.gce-has-events{ /* Table cells with events */
+	color:$red;
+  background:$orange;
+	cursor:pointer;
+}
 /* PAGE LIST */
 
 .gce-page-list .gce-list p{ /* Each piece of information in the list */
@@ -297,20 +297,20 @@ div.gallery-thumbnail-image img{
 
 .gce-widget-grid .gce-calendar{ /* Main calendar table */
 	width:100%;
-	border:1px solid #CCCCCC;
+	border:1px solid $teal;
 	border-collapse:collapse;
 }
 
 .gce-widget-grid .gce-calendar th{ /* Day headings (S, M etc.) */
 	width:14.29%;
-	border:1px solid #CCCCCC;
+	border:1px solid $teal;
 	text-align:center;
 }
 
 .gce-widget-grid .gce-calendar td{ /* Day table cells */
-	color:#CCCCCC;
+	color:$black;
 	width:14.29%;
-	border:1px solid #CCCCCC;
+	border:1px solid $teal;
 	text-align:center;
 }
 
@@ -320,7 +320,7 @@ div.gallery-thumbnail-image img{
 }
 
 .gce-widget-grid .gce-calendar .gce-today{ /* Table cell that represents today */
-	background-color:#DDDDDD;
+	background-color:$teal;
 }
 
 .gce-widget-grid  .gce-calendar .gce-event-info{ /* Event information */

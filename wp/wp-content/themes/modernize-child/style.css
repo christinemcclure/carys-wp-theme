@@ -105,6 +105,8 @@ body {
   background: #910000; }
   #nav .search-wrapper {
     margin: 0 30px 0 0; }
+    #nav .search-wrapper #searchsubmit {
+      background-image: url("/wp/wp-content/themes/modernize/images/icon/light/find-17px.png"); }
   #nav ul#menu-main-1 li {
     font-size: 14px; }
     #nav ul#menu-main-1 li a {

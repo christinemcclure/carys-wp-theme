@@ -38,6 +38,9 @@ $linkHoverColor: $red;
 $footerBackground: $black;
 $footerText: $orange;
 $navColor: $black;
+$mobileNavBackground: $beige;
+$navBackground: $red;
+
 
 // HEADINGS
 h1.stunning-text-title{ font-family: $siteTitleFont;} // for all h1 tags
@@ -161,26 +164,24 @@ div.gallery-thumbnail-image img{
 
 
 #nav {
-    background:$red;
+  background:$mobileNavBackground;
+  .navigation-wrapper {
 
-
-    .navigation-wrapper {
-
-     }
-    .search-wrapper {
-      margin: 0 30px 0 0;
-      #searchsubmit {
-        background-image: url('/wp/wp-content/themes/modernize/images/icon/light/find-17px.png');
-      }
-
+   }
+  .search-wrapper {
+    margin: 0 30px 0 0;
+    #searchsubmit {
+      background-image: url('/wp/wp-content/themes/modernize/images/icon/light/find-17px.png');
     }
 
-    ul#menu-main-1 li {
-    font-size: 14px;
-      a{
-        color:$navColor;
-      }
+  }
+
+  ul#menu-main-1 li {
+  font-size: 14px;
+    a{
+      color:$navColor;
     }
+  }
 }
 
 
@@ -441,6 +442,9 @@ div.gallery-thumbnail-image img{
     margin-bottom: 40px;
   }
 
+  #nav {
+    background:$navBackground;
+  }
   #header{
     padding: 40px 10px 30px 10px;
     h1{

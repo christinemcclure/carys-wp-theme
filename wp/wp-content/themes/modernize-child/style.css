@@ -136,7 +136,7 @@ div.gallery-thumbnail-image img {
     margin-left: 40%; }
 
 #nav {
-  background: #910000; }
+  background: #e4d4bd; }
   #nav .search-wrapper {
     margin: 0 30px 0 0; }
     #nav .search-wrapper #searchsubmit {
@@ -378,6 +378,9 @@ div.gallery-thumbnail-image img {
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px; }
+
+  #nav {
+    background: #910000; }
 
   #header {
     padding: 40px 10px 30px 10px; }

@@ -179,6 +179,8 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 }
 
 
+// NAVIGATION
+
 #nav {
   background:$mobileNavBackground;
   .navigation-wrapper {
@@ -322,7 +324,11 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 }
 
 
+// SPECIFIC PAGE ITEMS
 
+ul.booze {
+  li {margin: 4px 0;}
+}
 
 /* RESPONSIVE SETTINGS */
 

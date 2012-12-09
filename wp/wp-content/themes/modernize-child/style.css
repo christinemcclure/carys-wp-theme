@@ -394,83 +394,88 @@ ul.booze li {
   margin: 4px 0;
 }
 
+/* line 334, sass/style.scss */
+#homeEvents ul, #homeEvents .gce-page-list li {
+  border: none;
+}
+
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 950px) {
-  /* line 337, sass/style.scss */
+  /* line 341, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 342, sass/style.scss */
+  /* line 346, sass/style.scss */
   #nav {
     background: #910000;
   }
 
-  /* line 345, sass/style.scss */
+  /* line 349, sass/style.scss */
   #header {
     padding: 40px 10px 30px 10px;
   }
-  /* line 347, sass/style.scss */
+  /* line 351, sass/style.scss */
   #header h1 {
     font-size: 60px;
   }
-  /* line 350, sass/style.scss */
+  /* line 354, sass/style.scss */
   #header p {
     font-size: 20px;
     margin: 20px 0 0 40px;
     color: #fff;
   }
-  /* line 355, sass/style.scss */
+  /* line 359, sass/style.scss */
   #header a:hover {
     color: #d86510;
   }
 
-  /* line 358, sass/style.scss */
+  /* line 362, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 359, sass/style.scss */
+  /* line 363, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 361, sass/style.scss */
+  /* line 365, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 366, sass/style.scss */
+  /* line 370, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 372, sass/style.scss */
+  /* line 376, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 375, sass/style.scss */
+  /* line 379, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 381, sass/style.scss */
+  /* line 385, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 391, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 394, sass/style.scss */
+  /* line 398, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -478,7 +483,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 405, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -486,14 +491,14 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 407, sass/style.scss */
+  /* line 411, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 412, sass/style.scss */
+  /* line 416, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

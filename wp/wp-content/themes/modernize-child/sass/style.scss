@@ -330,6 +330,10 @@ ul.booze {
   li {margin: 4px 0;}
 }
 
+#homeEvents{
+  ul, .gce-page-list li{border:none;}
+}
+
 /* RESPONSIVE SETTINGS */
 
 @media screen and (min-width: 950px) {

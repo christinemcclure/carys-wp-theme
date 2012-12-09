@@ -113,6 +113,18 @@ div.gallery-thumbnail-image img{
   width:120px;
 }
 
+// Hide sidebar borders
+
+div.left-sidebar-wrapper .custom-sidebar-title{
+  border:1px solid $pageColor;
+}
+
+.gdl-divider + .gdl-divider, .gdl-divider{
+  padding: 20px 0 0 0;
+  border-top:none;
+  border-bottom:1px solid $pageColor; // make the same color or Modernize original shows through
+}
+
 
 // HEADER
     #header {
@@ -237,7 +249,6 @@ div.gallery-thumbnail-image img{
     font-size:28px;
 }
 
-
 .gce-page-grid{
   .gce-month-title{ /* Month title */
     font-size:26px;
@@ -246,7 +257,6 @@ div.gallery-thumbnail-image img{
       font-size:38px;
   }
 }
-
 
 .gce-has-events{ /* Table cells with events */
   background:$orange;
@@ -257,18 +267,15 @@ div.gallery-thumbnail-image img{
   background-color:darken($pageColor, 10%);
 }
 
-
 .gce-calendar th, .gce-calendar td{ /* Day headings (S, M etc.) */
 	width:14.29%;
 	border:1px solid $calendarBorder;
 	text-align:center;
 }
 
-
 .gce-day-past {
   color: lighten($black,40%);
 }
-
 
 /* keep sidebar grid from floating into page */
 .gce-calendar th, .gce-calendar td {
@@ -280,18 +287,17 @@ div.gallery-thumbnail-image img{
 }
 
 
-
-
 // Calendar page list
 
 .gce-page-list .gce-list p{ /* Each piece of information in the list */
 	margin:0;
 }
 
-.gce-page-list .gce-list ul{
+.gce-list li{
 	list-style-type:none;
-	margin:0;
+	margin:0 0 40px 0;
 	padding:0;
+  border-bottom: 1px solid $calendarBorder;
 }
 
 
@@ -399,13 +405,3 @@ div.gallery-thumbnail-image img{
 
 
 }/*end min 768 */
-
-div.left-sidebar-wrapper .custom-sidebar-title{
-  border:none;
-}
-
-.gdl-divider + .gdl-divider{
-  padding: 20px 0 0 0;
-  border-top:1px solid darken($pageColor, 20%);
-  border-bottom:1px solid $pageColor; // make the same color or Modernize original shows through
-}

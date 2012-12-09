@@ -359,7 +359,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 /* line 296, sass/style.scss */
 .gce-list li {
   list-style-type: none;
-  margin: 0 0 40px 0;
+  margin: 20px 0;
   padding: 0;
   border-bottom: 1px solid #a39981;
 }
@@ -372,88 +372,95 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   border: 1px solid #333333;
   max-width: 300px;
 }
-
-/* line 312, sass/style.scss */
+/* line 311, sass/style.scss */
+.gce-event-info li {
+  list-style-type: none;
+}
+/* line 313, sass/style.scss */
+.gce-event-info li p {
+  margin: 0;
+}
+/* line 316, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 950px) {
-  /* line 324, sass/style.scss */
+  /* line 330, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 329, sass/style.scss */
+  /* line 335, sass/style.scss */
   #nav {
     background: #910000;
   }
 
-  /* line 332, sass/style.scss */
+  /* line 338, sass/style.scss */
   #header {
     padding: 40px 10px 30px 10px;
   }
-  /* line 334, sass/style.scss */
+  /* line 340, sass/style.scss */
   #header h1 {
     font-size: 60px;
   }
-  /* line 337, sass/style.scss */
+  /* line 343, sass/style.scss */
   #header p {
     font-size: 20px;
     margin: 20px 0 0 40px;
     color: #fff;
   }
 
-  /* line 345, sass/style.scss */
+  /* line 351, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 346, sass/style.scss */
+  /* line 352, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 348, sass/style.scss */
+  /* line 354, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 353, sass/style.scss */
+  /* line 359, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 359, sass/style.scss */
+  /* line 365, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 362, sass/style.scss */
+  /* line 368, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 368, sass/style.scss */
+  /* line 374, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 374, sass/style.scss */
+  /* line 380, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 381, sass/style.scss */
+  /* line 387, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -461,7 +468,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     text-align: right;
   }
 
-  /* line 388, sass/style.scss */
+  /* line 394, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -469,14 +476,14 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     margin: 40px 0 0 0;
   }
 
-  /* line 394, sass/style.scss */
+  /* line 400, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 399, sass/style.scss */
+  /* line 405, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

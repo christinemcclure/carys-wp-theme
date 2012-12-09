@@ -17,7 +17,8 @@ h1 {
   font-size: 34px; }
 
 h2 {
-  font-size: 25px; }
+  font-size: 25px;
+  margin-top: 24px; }
 
 h3 {
   font-size: 20px; }
@@ -73,6 +74,15 @@ body {
 .clearRight {
   clear: right; }
 
+img.size-full {
+  margin: 20px; }
+
+p.bumpDown {
+  padding-bottom: 20px; }
+
+p.bumpUp {
+  padding-top: 20px; }
+
 #header {
   width: 95%;
   background: url("images/header.jpg") no-repeat top center;
@@ -99,7 +109,28 @@ body {
   margin-top: 33px; }
 
 .footer-wrapper {
-  background: #332f25; }
+  background: #332f25;
+  width: 100%;
+  min-height: 50px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 12px; }
+  .footer-wrapper p {
+    margin: 10px 10px 0 10px; }
+  .footer-wrapper p + p {
+    margin-bottom: 10px; }
+  .footer-wrapper #footer1, .footer-wrapper #footer2, .footer-wrapper #footer3 {
+    float: left;
+    width: 100%;
+    text-align: center; }
+    .footer-wrapper #footer1 a img, .footer-wrapper #footer2 a img, .footer-wrapper #footer3 a img {
+      float: left;
+      margin: 20px 10px 0 10px; }
+    .footer-wrapper #footer1 #contact, .footer-wrapper #footer2 #contact, .footer-wrapper #footer3 #contact {
+      margin-right: 0; }
+  .footer-wrapper #footer2 {
+    width: 100px;
+    margin-left: 40%; }
 
 #nav {
   background: #910000; }
@@ -120,49 +151,8 @@ body {
     z-index:50;
 }
 */
-img.size-full {
-  margin: 20px; }
-
-/**** HEADER ****/
-/**** BODY ****/
-/* page title */
-h1.gdl-page-title {
-  font-size: 20px; }
-
-h2 {
-  margin-top: 24px; }
-
 div.gallery-thumbnail-image img {
   width: 120px; }
-
-p.bumpDown {
-  padding-bottom: 20px; }
-
-p.bumpUp {
-  padding-top: 20px; }
-
-.container .footer-wrapper {
-  width: 100%;
-  min-height: 50px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 12px; }
-  .container .footer-wrapper p {
-    margin: 10px 10px 0 10px; }
-  .container .footer-wrapper p + p {
-    margin-bottom: 10px; }
-  .container .footer-wrapper #footer1, .container .footer-wrapper #footer2, .container .footer-wrapper #footer3 {
-    float: left;
-    width: 100%;
-    text-align: center; }
-    .container .footer-wrapper #footer1 a img, .container .footer-wrapper #footer2 a img, .container .footer-wrapper #footer3 a img {
-      float: left;
-      margin: 20px 10px 0 10px; }
-    .container .footer-wrapper #footer1 #contact, .container .footer-wrapper #footer2 #contact, .container .footer-wrapper #footer3 #contact {
-      margin-right: 0; }
-  .container .footer-wrapper #footer2 {
-    width: 100px;
-    margin-left: 40%; }
 
 /* Google Calendar Events */
 .gce-page-grid .gce-calendar .gce-caption {

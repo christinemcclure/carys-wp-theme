@@ -43,7 +43,10 @@ $navBackground: $red;
 
 
 // HEADINGS
+
 h1.stunning-text-title{ font-family: $siteTitleFont;} // for all h1 tags
+h1.gdl-divider{ border:none;}
+
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; }
 
 h1{ font-size: 34px; }

@@ -10,6 +10,9 @@ Author URI: http://goodlayers.com
 h1.stunning-text-title {
   font-family: "Kaushan Script", Verdana, Arial, sans-serif; }
 
+h1.gdl-divider {
+  border: none; }
+
 h2, h3, h4, h5, h6, .gdl-title {
   font-family: "Ruda", Verdana, Arial, sans-serif; }
 

@@ -7,27 +7,11 @@ Template: modernize
 Author: Goodlayers
 Author URI: http://goodlayers.com
 */
-/* FONTS (Google fonts set in Modernize theme) */
-/*
-COLORS:
-Modified from
-Playing with Fire 
-http://www.colourlovers.com/palette/1636937/Playing_with_Fire
-*/
-h1, h2, h3, h4, h5, h6, .gdl-title {
-  font-family: "Ruda", Verdana, Arial, sans-serif; }
-
 h1.stunning-text-title {
-  font-family: "Aclonica", Verdana, Arial, sans-serif; }
+  font-family: "Kaushan Script", Verdana, Arial, sans-serif; }
 
-/*html{ background-color: #dddddd; } */
-.logo-wrapper {
-  margin-top: 1px;
-  margin-left: 1px;
-  margin-bottom: 1px; }
-
-.social-wrapper {
-  margin-top: 33px; }
+h2, h3, h4, h5, h6, .gdl-title {
+  font-family: "Ruda", Verdana, Arial, sans-serif; }
 
 h1 {
   font-size: 34px; }
@@ -48,19 +32,16 @@ h6 {
   font-size: 15px; }
 
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: "PT Sans", "Times New Roman", Times, serif; }
 
-h1, h2, h3, h4, h5, h6, .title-color {
-  color: #494949; }
+.logo-wrapper {
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-bottom: 1px; }
 
-body {
-  font-family: PT Sans; }
-
-h1, h2, h3, h4, h5, h6, .gdl-title {
-  font-family: Ruda; }
-
-h1.stunning-text-title {
-  font-family: Kaushan Script; }
+.social-wrapper {
+  margin-top: 33px; }
 
 /*div.container{ background: #ffffff; -moz-box-shadow: 0px 0px 8px #bbbbbb; -webkit-box-shadow: 0px 0px 8px #bbbbbb; box-shadow: 0px 0px 8px #bbbbbb; }
 */

@@ -9,17 +9,18 @@ Author URI: http://goodlayers.com
 
 @import url("../modernize/style.css");
 
-/* FONTS (Google fonts set in Modernize theme) */
-$siteTitleFont: 'Aclonica', Verdana, Arial,  sans-serif;
+// FONTS (Google fonts set in Modernize theme)
+$siteTitleFont: 'Kaushan Script', Verdana, Arial,  sans-serif;
 $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 
-/*
-COLORS:
-Modified from
-Playing with Fire 
-http://www.colourlovers.com/palette/1636937/Playing_with_Fire
-*/
+
+///////
+// COLORS:
+// Modified from
+// Playing with Fire
+// http://www.colourlovers.com/palette/1636937/Playing_with_Fire
+
 $mustard: rgb(200,175,20);
 $brown: rgb(157,126,69);
 $red: rgb(145,0,0);
@@ -32,27 +33,38 @@ $pageColor: $beige;
 $header: $teal;
 $footerColor: $brown;
 
-h1, h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; }
-h1.stunning-text-title{ font-family: $siteTitleFont;
-}
 
 
-// ORIGINAL FILE
+// HEADINGS
+h1.stunning-text-title{ font-family: $siteTitleFont;} // for all h1 tags
+h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; }
 
-/*html{ background-color: #dddddd; } */
-.logo-wrapper{ margin-top: 1px; margin-left: 1px; margin-bottom: 1px; }
-.social-wrapper{ margin-top: 33px; }
 h1{ font-size: 34px; }
 h2{ font-size: 25px; }
 h3{ font-size: 20px; }
 h4{ font-size: 18px; }
 h5{ font-size: 16px; }
 h6{ font-size: 15px; }
-body{ font-size: 16px; }
-h1, h2, h3, h4, h5, h6, .title-color{ color: #494949; }
-body{ font-family: PT Sans; }
-h1, h2, h3, h4, h5, h6, .gdl-title{ font-family: Ruda; }
-h1.stunning-text-title{ font-family: Kaushan Script; }
+
+// HEADER
+
+
+// BODY
+
+body {
+  font-size: 16px;
+  font-family: $bodyFont;
+}
+
+
+// ORIGINAL FILE
+
+.logo-wrapper{ margin-top: 1px; margin-left: 1px; margin-bottom: 1px; }
+.social-wrapper{ margin-top: 33px; }
+
+
+
+
 /*div.container{ background: #ffffff; -moz-box-shadow: 0px 0px 8px #bbbbbb; -webkit-box-shadow: 0px 0px 8px #bbbbbb; box-shadow: 0px 0px 8px #bbbbbb; }
 */
 div.divider{ border-bottom: 1px solid #ececec; }

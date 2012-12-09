@@ -34,6 +34,13 @@ h6 {
 body {
   font-size: 16px;
   font-family: "PT Sans", "Times New Roman", Times, serif; }
+  body a {
+    color: #ef7f2c; }
+  body a:hover {
+    color: #910000; }
+
+.gdl-divider, .custom-sidebar.gdl-divider div, .custom-sidebar.gdl-divider .custom-sidebar-title, .custom-sidebar.gdl-divider ul li {
+  border-color: #ef7f2c !important; }
 
 .logo-wrapper {
   margin-top: 1px;
@@ -42,40 +49,6 @@ body {
 
 .social-wrapper {
   margin-top: 33px; }
-
-/*div.container{ background: #ffffff; -moz-box-shadow: 0px 0px 8px #bbbbbb; -webkit-box-shadow: 0px 0px 8px #bbbbbb; box-shadow: 0px 0px 8px #bbbbbb; }
-*/
-div.divider {
-  border-bottom: 1px solid #ececec; }
-
-.gdl-divider, .custom-sidebar.gdl-divider div, .custom-sidebar.gdl-divider .custom-sidebar-title, .custom-sidebar.gdl-divider ul li {
-  border-color: #ececec !important; }
-
-.scroll-top {
-  color: #7c7c7c !important; }
-
-.stunning-text-wrapper {
-  background-color: #ffffff !important; }
-
-h1.stunning-text-title {
-  color: #333333; }
-
-.stunning-text-caption {
-  color: #666666; }
-
-.stunning-text-button {
-  color: #ffffff !important;
-  background-color: #ef7f2c !important;
-  border: 1px solid #ef7f2c !important; }
-
-body {
-  color: #666666 !important; }
-
-a {
-  color: #ef7f2c; }
-
-a:hover {
-  color: #ef7f2c; }
 
 .gdl-link-title {
   color: #ef7f2c !important; }

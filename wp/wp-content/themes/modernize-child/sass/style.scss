@@ -27,11 +27,14 @@ $red: rgb(145,0,0);
 $beige: rgb(228,212,189);
 $teal: rgb(2,177,182);
 $black: rgb(51,47,37);
+$orange: rgb(239,127,44);
 
 $background: $teal;
 $pageColor: $beige;
 $header: $teal;
 $footerColor: $brown;
+$linkColor: $orange;
+$linkHoverColor: $red;
 
 
 
@@ -54,29 +57,22 @@ h6{ font-size: 15px; }
 body {
   font-size: 16px;
   font-family: $bodyFont;
+  a{ color: $linkColor; }
+  a:hover{ color: $linkHoverColor; }
 }
 
+// PAGE ELEMENTS
+.gdl-divider, .custom-sidebar.gdl-divider div, .custom-sidebar.gdl-divider .custom-sidebar-title, .custom-sidebar.gdl-divider ul li{ border-color: $orange !important; }
+//.scroll-top{ color: #7c7c7c !important; }
 
-// ORIGINAL FILE
+
+//FOOTER
 
 .logo-wrapper{ margin-top: 1px; margin-left: 1px; margin-bottom: 1px; }
 .social-wrapper{ margin-top: 33px; }
 
 
 
-
-/*div.container{ background: #ffffff; -moz-box-shadow: 0px 0px 8px #bbbbbb; -webkit-box-shadow: 0px 0px 8px #bbbbbb; box-shadow: 0px 0px 8px #bbbbbb; }
-*/
-div.divider{ border-bottom: 1px solid #ececec; }
-.gdl-divider, .custom-sidebar.gdl-divider div, .custom-sidebar.gdl-divider .custom-sidebar-title, .custom-sidebar.gdl-divider ul li{ border-color: #ececec !important; }
-.scroll-top{ color: #7c7c7c !important; }
-.stunning-text-wrapper{ background-color: #ffffff !important; }
-h1.stunning-text-title{ color: #333333; }
-.stunning-text-caption{ color: #666666; }
-.stunning-text-button{ color: #ffffff !important; background-color: #ef7f2c !important; border: 1px solid #ef7f2c !important; }
-body{ color: #666666 !important; }
-a{ color: #ef7f2c; }
-a:hover{ color: #ef7f2c; }
 .gdl-link-title{ color: #ef7f2c !important; }
 .gdl-slider-title{ color: #ef7f2c !important; }
 .gdl-slider-caption, .nivo-caption{ color: #ffffff !important; }

@@ -83,6 +83,9 @@ p.bumpDown {
 p.bumpUp {
   padding-top: 20px; }
 
+div.gallery-thumbnail-image img {
+  width: 120px; }
+
 #header {
   width: 95%;
   background: url("images/header.jpg") no-repeat top center;
@@ -151,9 +154,6 @@ p.bumpUp {
     z-index:50;
 }
 */
-div.gallery-thumbnail-image img {
-  width: 120px; }
-
 /* Google Calendar Events */
 .gce-page-grid .gce-calendar .gce-caption {
   /* Caption at top of calendar */

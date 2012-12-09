@@ -101,6 +101,12 @@ p.bumpUp {
   padding-top:20px;
 }
 
+
+div.gallery-thumbnail-image img{
+  width:120px;
+}
+
+
 // HEADER
     #header {
         width:95%;
@@ -187,12 +193,6 @@ p.bumpUp {
     z-index:50;
 }
 */
-
-
-
-    div.gallery-thumbnail-image img{
-    width:120px;
-    }
 
 
 
@@ -403,35 +403,32 @@ p.bumpUp {
 }
 
 
-    /* keep sidebar grid from floating into page */
-    .gce-calendar th, .gce-calendar td {
-        padding:0;
-    }
+/* keep sidebar grid from floating into page */
+.gce-calendar th, .gce-calendar td {
+    padding:0;
+}
 
-    .gcalendar{
-        margin:20px 0;
-    }
-    .gce-list{
-        list-style:none
-    }
+.gcalendar{
+    margin:20px 0;
+}
+.gce-list{
+    list-style:none
+}
 
-    /* make tiny month change arrows bigger */
-    .gce-change-month {
-        font-size:200%;
-    }
+/* make tiny month change arrows bigger */
+.gce-change-month {
+    font-size:200%;
+}
 
-    .gce-caption {
+.gce-caption {
 
-    }
+}
 
-    /*Make Ajax calendar match site font */
-    .gce-month-title {
-        font-family:$headingFont;
-        font-size:125%;
-    }
-
-
-
+/*Make Ajax calendar match site font */
+.gce-month-title {
+    font-family:$headingFont;
+    font-size:125%;
+}
 
 
 

@@ -28,9 +28,10 @@ $beige: rgb(228,212,189);
 $teal: rgb(2,177,182);
 $black: rgb(51,47,37);
 $orange: rgb(239,127,44);
+$white: lighten($beige, 60%);
 
 $background: $teal;
-$pageColor: $beige;
+$pageColor: lighten($beige,10%);
 $header: $teal;
 $footerColor: $brown;
 $linkColor: $orange;
@@ -58,8 +59,8 @@ h6{ font-size: 15px; }
 
 
 // BODY
-body, .body-wrapper, html {
-  background: $background url(images/teal-pattern.png) repeat top left;
+html {
+  background: lighten($background, 10%) url(images/ben-day-dots3.png) repeat top left;
 }
 .content-wrapper, div.container {background:$pageColor;}
 
@@ -116,16 +117,19 @@ div.gallery-thumbnail-image img{
 
 
 // HEADER
+
     #header {
         width:95%;
         background: url('images/header.jpg')no-repeat top center;
         p {font-family:$headingFont;}
         margin:20px 0 0 0;
-        border:10px solid $black;
+        #border:10px solid $black;
     }
 
+
     .header-wrapper{
-        padding: 10px 0 0 0;
+      background: $white url('images/header-border.png')no-repeat;
+      padding: 10px 0 0 0;
     }
 
     .navigation-wrapper {

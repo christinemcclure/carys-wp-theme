@@ -7,183 +7,195 @@ Template: modernize
 Author: Goodlayers
 Author URI: http://goodlayers.com
 */
-/* line 48, sass/style.scss */
+/* line 49, sass/style.scss */
 h1.stunning-text-title {
   font-family: "Kaushan Script", Verdana, Arial, sans-serif;
 }
 
-/* line 49, sass/style.scss */
+/* line 50, sass/style.scss */
 h1.gdl-divider {
   border: none;
 }
 
-/* line 51, sass/style.scss */
+/* line 52, sass/style.scss */
 h2, h3, h4, h5, h6, .gdl-title {
   font-family: "Ruda", Verdana, Arial, sans-serif;
 }
 
-/* line 53, sass/style.scss */
+/* line 54, sass/style.scss */
 h1 {
   font-size: 34px;
 }
 
-/* line 54, sass/style.scss */
+/* line 55, sass/style.scss */
 h2 {
   font-size: 25px;
   margin-top: 24px;
 }
 
-/* line 55, sass/style.scss */
+/* line 56, sass/style.scss */
 h3 {
   font-size: 20px;
 }
 
-/* line 56, sass/style.scss */
+/* line 57, sass/style.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 57, sass/style.scss */
+/* line 58, sass/style.scss */
 h5 {
   font-size: 16px;
 }
 
-/* line 58, sass/style.scss */
+/* line 59, sass/style.scss */
 h6 {
   font-size: 15px;
 }
 
-/* line 62, sass/style.scss */
+/* line 63, sass/style.scss */
 html {
   background: #03e2e8 url(images/ben-day-dots3.png) repeat top left;
 }
 
-/* line 65, sass/style.scss */
+/* line 66, sass/style.scss */
 .content-wrapper, div.container {
   background: #f3ece1;
 }
 
-/* line 67, sass/style.scss */
+/* line 68, sass/style.scss */
 body {
   font-size: 16px;
   font-family: "PT Sans", "Times New Roman", Times, serif;
 }
-/* line 70, sass/style.scss */
-body a {
-  color: #ef7f2c;
-}
 /* line 71, sass/style.scss */
+body a {
+  color: #d86510;
+}
+/* line 72, sass/style.scss */
 body a:hover {
   color: #910000;
 }
-/* line 72, sass/style.scss */
+/* line 73, sass/style.scss */
 body .page-wrapper {
   margin: 20px 0 0 0;
 }
-/* line 76, sass/style.scss */
+/* line 77, sass/style.scss */
 body h1.stunning-text-title {
   font-size: 40px;
   margin: 0 0 0 -35px;
 }
-/* line 80, sass/style.scss */
+/* line 81, sass/style.scss */
 body .container {
   padding: 10px;
 }
 
-/* line 89, sass/style.scss */
+/* line 90, sass/style.scss */
 .tiltLeft {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
 }
 
-/* line 92, sass/style.scss */
+/* line 93, sass/style.scss */
 .tiltRight {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
 }
 
-/* line 97, sass/style.scss */
+/* line 98, sass/style.scss */
 .border {
   padding: 20px;
   background: white url(images/vintage_speckles.png) repeat top left;
 }
 
-/* line 102, sass/style.scss */
+/* line 103, sass/style.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 103, sass/style.scss */
+/* line 104, sass/style.scss */
 .floatRight {
   float: right;
 }
 
-/* line 104, sass/style.scss */
+/* line 105, sass/style.scss */
 .clearRight {
   clear: right;
 }
 
-/* line 105, sass/style.scss */
+/* line 106, sass/style.scss */
 img.size-full {
   margin: 20px;
 }
 
-/* line 106, sass/style.scss */
+/* line 107, sass/style.scss */
 p.bumpDown {
   padding-bottom: 20px;
 }
 
-/* line 109, sass/style.scss */
+/* line 110, sass/style.scss */
 p.bumpUp {
   padding-top: 20px;
 }
 
-/* line 114, sass/style.scss */
+/* line 115, sass/style.scss */
 div.gallery-thumbnail-image img {
   width: 120px;
 }
 
 /* line 121, sass/style.scss */
+div.left-sidebar-wrapper .custom-sidebar-title {
+  border: 1px solid #f3ece1;
+}
+
+/* line 125, sass/style.scss */
+.gdl-divider + .gdl-divider, .gdl-divider {
+  padding: 20px 0 0 0;
+  border-top: none;
+  border-bottom: 1px solid #f3ece1;
+}
+
+/* line 134, sass/style.scss */
 #header {
   width: 95%;
   background: url("images/header.jpg") no-repeat top center;
   margin: 20px 0 0 0;
   #border: 10px solid #332f25;
 }
-/* line 124, sass/style.scss */
+/* line 137, sass/style.scss */
 #header p {
   font-family: "Ruda", Verdana, Arial, sans-serif;
 }
 
-/* line 130, sass/style.scss */
+/* line 143, sass/style.scss */
 .header-wrapper {
   background: white url("images/header-border.png") no-repeat;
   padding: 10px 0 0 0;
 }
 
-/* line 135, sass/style.scss */
+/* line 148, sass/style.scss */
 .navigation-wrapper {
   margin: 10px 0 0 0;
 }
 
-/* line 139, sass/style.scss */
+/* line 152, sass/style.scss */
 #menu-main-1 li {
   font-size: 14px;
 }
 
-/* line 145, sass/style.scss */
+/* line 158, sass/style.scss */
 .logo-wrapper {
   margin-top: 1px;
   margin-left: 1px;
   margin-bottom: 1px;
 }
 
-/* line 146, sass/style.scss */
+/* line 159, sass/style.scss */
 .social-wrapper {
   margin-top: 33px;
 }
 
-/* line 148, sass/style.scss */
+/* line 161, sass/style.scss */
 .footer-wrapper {
   background: #332f25;
   width: 100%;
@@ -192,52 +204,52 @@ div.gallery-thumbnail-image img {
   font-size: 14px;
   line-height: 12px;
 }
-/* line 156, sass/style.scss */
+/* line 169, sass/style.scss */
 .footer-wrapper p {
   margin: 10px 10px 0 10px;
 }
-/* line 157, sass/style.scss */
+/* line 170, sass/style.scss */
 .footer-wrapper p + p {
   margin-bottom: 10px;
 }
-/* line 158, sass/style.scss */
+/* line 171, sass/style.scss */
 .footer-wrapper #footer1, .footer-wrapper #footer2, .footer-wrapper #footer3 {
   float: left;
   width: 100%;
   text-align: center;
 }
-/* line 159, sass/style.scss */
+/* line 172, sass/style.scss */
 .footer-wrapper #footer1 a img, .footer-wrapper #footer2 a img, .footer-wrapper #footer3 a img {
   float: left;
   margin: 20px 10px 0 10px;
 }
-/* line 165, sass/style.scss */
+/* line 178, sass/style.scss */
 .footer-wrapper #footer1 #contact, .footer-wrapper #footer2 #contact, .footer-wrapper #footer3 #contact {
   margin-right: 0;
 }
-/* line 168, sass/style.scss */
+/* line 181, sass/style.scss */
 .footer-wrapper #footer2 {
   width: 100px;
   margin-left: 40%;
 }
 
-/* line 175, sass/style.scss */
+/* line 190, sass/style.scss */
 #nav {
   background: #e4d4bd;
 }
-/* line 180, sass/style.scss */
+/* line 195, sass/style.scss */
 #nav .search-wrapper {
   margin: 0 30px 0 0;
 }
-/* line 182, sass/style.scss */
+/* line 197, sass/style.scss */
 #nav .search-wrapper #searchsubmit {
   background-image: url("/wp/wp-content/themes/modernize/images/icon/light/find-17px.png");
 }
-/* line 188, sass/style.scss */
+/* line 203, sass/style.scss */
 #nav ul#menu-main-1 li {
   font-size: 14px;
 }
-/* line 190, sass/style.scss */
+/* line 205, sass/style.scss */
 #nav ul#menu-main-1 li a {
   color: #332f25;
 }
@@ -250,35 +262,15 @@ div.gallery-thumbnail-image img {
     z-index:50;
 }
 */
-/* Google Calendar Events */
-/* line 211, sass/style.scss */
-.gce-page-grid .gce-calendar .gce-caption {
-  /* Caption at top of calendar */
-  text-align: center;
+/* line 227, sass/style.scss */
+.gce-calendar {
+  border: 1px solid #a39981;
 }
 
-/* line 215, sass/style.scss */
-.gce-page-grid .gce-calendar {
-  /* Main calendar table */
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #02b1b6;
-  color: #332f25;
-}
-
-/* line 222, sass/style.scss */
-.gce-page-grid .gce-calendar th {
-  /* Day headings (S, M etc.) */
-  border: 1px solid #9d7e45;
-  text-align: center;
-  width: 14.29%;
-  padding: 0;
-}
-
-/* line 229, sass/style.scss */
+/* line 231, sass/style.scss */
 .gce-page-grid .gce-calendar td {
-  /* Day table cells */
-  border: 1px solid #9d7e45;
+  /* Full calendar table cells */
+  border: 1px solid #a39981;
   text-align: center;
   height: 80px;
   vertical-align: middle;
@@ -286,7 +278,7 @@ div.gallery-thumbnail-image img {
 }
 
 /* line 239, sass/style.scss */
-.gce-page-grid .gce-calendar .gce-event-info {
+.gce-calendar .gce-event-info {
   /* Event information */
   display: none;
   /* Important! */
@@ -299,334 +291,183 @@ div.gallery-thumbnail-image img {
 }
 
 /* line 247, sass/style.scss */
-.gce-page-grid .gce-calendar .gce-today {
-  /* Table cell that represents today */
-  background-color: #DDDDDD;
-}
-
-/* line 252, sass/style.scss */
-.gce-page-grid .gce-calendar .gce-next,
-.gce-page-grid .gce-calendar .gce-prev {
-  /* Previous and next month links */
-  cursor: pointer;
-  display: inline-block;
-  width: 3%;
-}
-
-/* line 258, sass/style.scss */
-.gce-page-grid .gce-calendar .gce-month-title {
+.gce-month-title {
   /* Month title */
   display: inline-block;
-  width: 90%;
+  width: 80%;
+  font-family: "Ruda", Verdana, Arial, sans-serif;
+  font-size: 16px;
 }
 
-/* line 263, sass/style.scss */
-.gce-page-grid .gce-calendar th abbr {
-  /* Day letter abbreviation */
-  border-bottom: none;
-}
-
-/* line 267, sass/style.scss */
-.gce-has-events {
-  /* Table cells with events */
-  color: #910000;
-  background: #ef7f2c;
+/* make tiny month change arrows bigger */
+/* line 256, sass/style.scss */
+.gce-change-month {
+  font-size: 28px;
   cursor: pointer;
 }
 
-/* PAGE LIST */
-/* line 274, sass/style.scss */
+/* line 262, sass/style.scss */
+.gce-page-grid .gce-month-title {
+  /* Month title */
+  font-size: 26px;
+}
+/* line 265, sass/style.scss */
+.gce-page-grid .gce-change-month {
+  font-size: 38px;
+}
+
+/* line 270, sass/style.scss */
+.gce-has-events {
+  /* Table cells with events */
+  background: #d86510;
+  cursor: pointer;
+}
+
+/* line 275, sass/style.scss */
+.gce-today {
+  background-color: #e4d4bd;
+}
+
+/* line 279, sass/style.scss */
+.gce-calendar th, .gce-calendar td {
+  /* Day headings (S, M etc.) */
+  width: 14.29%;
+  border: 1px solid #a39981;
+  text-align: center;
+}
+
+/* line 285, sass/style.scss */
+.gce-day-past {
+  color: #a39981;
+}
+
+/* keep sidebar grid from floating into page */
+/* line 290, sass/style.scss */
+.gce-calendar th, .gce-calendar td {
+  padding: 0;
+}
+
+/* line 294, sass/style.scss */
+.gcalendar {
+  margin: 20px 0;
+}
+
+/* line 301, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
   margin: 0;
 }
 
-/* line 279, sass/style.scss */
-.gce-page-list .gce-list p span,
-.gce-page-list .gce-list div span {
-  /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
-
-/* line 283, sass/style.scss */
-.gce-page-list .gce-list .gce-list-event {
-  /* The event title */
-  background-color: #DDDDDD;
-}
-
-/* line 287, sass/style.scss */
-.gce-page-list .gce-list .gce-list-title {
-  /* The title (not the same as event title) */
-  font-weight: bold;
-}
-
-/* line 291, sass/style.scss */
-.gce-page-list .gce-list ul {
+/* line 305, sass/style.scss */
+.gce-list li {
   list-style-type: none;
-  margin: 0;
+  margin: 20px 0;
   padding: 0;
+  border-bottom: 1px solid #a39981;
 }
 
-/* WIDGET GRID */
-/* line 299, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-caption {
-  text-align: center;
-  margin: 0 0 10px 0;
-}
-
-/* line 304, sass/style.scss */
-.gce-widget-grid .gce-calendar {
-  /* Main calendar table */
-  width: 100%;
-  border: 1px solid #02b1b6;
-  border-collapse: collapse;
-}
-
-/* line 310, sass/style.scss */
-.gce-widget-grid .gce-calendar th {
-  /* Day headings (S, M etc.) */
-  width: 14.29%;
-  border: 1px solid #02b1b6;
-  text-align: center;
-}
-
-/* line 316, sass/style.scss */
-.gce-widget-grid .gce-calendar td {
-  /* Day table cells */
-  color: #332f25;
-  width: 14.29%;
-  border: 1px solid #02b1b6;
-  text-align: center;
-}
-
-/* line 323, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-has-events {
-  /* Table cells with events */
-  cursor: pointer;
-  color: #666666;
-}
-
-/* line 328, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-today {
-  /* Table cell that represents today */
-  background-color: #02b1b6;
-}
-
-/* line 332, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-event-info {
-  /* Event information */
-  display: none;
-  /* Important! */
-}
-
-/* line 337, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-next,
-.gce-widget-grid .gce-calendar .gce-prev {
-  /* Prev and next month links */
-  cursor: pointer;
-  display: inline-block;
-  width: 5%;
-}
-
-/* line 343, sass/style.scss */
-.gce-widget-grid .gce-calendar .gce-month-title {
-  /* Month title in caption at top of table */
-  display: inline-block;
-  width: 80%;
-}
-
-/* line 348, sass/style.scss */
-.gce-widget-grid .gce-calendar th abbr {
-  /* Day name abbreviations */
-  border-bottom: none;
-}
-
-/* WIDGET LIST */
-/* line 354, sass/style.scss */
-.gce-widget-list .gce-list p {
-  /* Each piece of information in the list */
-  margin: 0;
-}
-
-/* line 359, sass/style.scss */
-.gce-widget-list .gce-list p span,
-.gce-widget-list .gce-list div span {
-  /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
-
-/* line 363, sass/style.scss */
-.gce-widget-list .gce-list .gce-list-event {
-  /* The event title */
-  background-color: #DDDDDD;
-}
-
-/* line 367, sass/style.scss */
-.gce-widget-list .gce-list .gce-list-title {
-  /* The title (not the same as event title) */
-  font-weight: bold;
-}
-
-/* line 371, sass/style.scss */
-.gce-widget-list .gce-list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* TOOLTIP */
-/* line 379, sass/style.scss */
+/* CALENDAR TOOLTIP */
+/* line 315, sass/style.scss */
 .gce-event-info {
   /* Tooltip container */
   background-color: #FFFFFF;
   border: 1px solid #333333;
   max-width: 300px;
 }
-
-/* line 385, sass/style.scss */
+/* line 320, sass/style.scss */
+.gce-event-info li {
+  list-style-type: none;
+}
+/* line 322, sass/style.scss */
+.gce-event-info li p {
+  margin: 0;
+}
+/* line 325, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
-/* line 391, sass/style.scss */
-.gce-event-info ul {
-  /* Events list */
-  padding: 0;
-  margin: 5px;
-  list-style-type: none;
-}
-
-/* line 397, sass/style.scss */
-.gce-event-info ul li {
-  /* Event list item */
-  margin: 10px 0 0 0;
-}
-
-/* line 401, sass/style.scss */
-.gce-event-info ul li p {
-  /* Each piece of information */
-  margin: 0;
-}
-
-/* line 406, sass/style.scss */
-.gce-event-info ul li p span,
-.gce-event-info ul li div span {
-  /* The text displayed before each piece of info, 'Starts:' for example */
-  color: #999999;
-}
-
-/* line 410, sass/style.scss */
-.gce-event-info .gce-tooltip-event {
-  /* The event title */
-  background-color: #DDDDDD;
-  font-weight: bold;
-}
-
-/* keep sidebar grid from floating into page */
-/* line 417, sass/style.scss */
-.gce-calendar th, .gce-calendar td {
-  padding: 0;
-}
-
-/* line 421, sass/style.scss */
-.gcalendar {
-  margin: 20px 0;
-}
-
-/* line 424, sass/style.scss */
-.gce-list {
-  list-style: none;
-}
-
-/* make tiny month change arrows bigger */
-/* line 429, sass/style.scss */
-.gce-change-month {
-  font-size: 200%;
-}
-
-/*Make Ajax calendar match site font */
-/* line 438, sass/style.scss */
-.gce-month-title {
-  font-family: "Ruda", Verdana, Arial, sans-serif;
-  font-size: 125%;
+/* line 336, sass/style.scss */
+ul.booze li {
+  margin: 4px 0;
 }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 950px) {
-  /* line 449, sass/style.scss */
+  /* line 343, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 454, sass/style.scss */
+  /* line 348, sass/style.scss */
   #nav {
     background: #910000;
   }
 
-  /* line 457, sass/style.scss */
+  /* line 351, sass/style.scss */
   #header {
     padding: 40px 10px 30px 10px;
   }
-  /* line 459, sass/style.scss */
+  /* line 353, sass/style.scss */
   #header h1 {
     font-size: 60px;
   }
-  /* line 462, sass/style.scss */
+  /* line 356, sass/style.scss */
   #header p {
     font-size: 20px;
     margin: 20px 0 0 40px;
     color: #fff;
   }
 
-  /* line 470, sass/style.scss */
+  /* line 364, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 471, sass/style.scss */
+  /* line 365, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 473, sass/style.scss */
+  /* line 367, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 478, sass/style.scss */
+  /* line 372, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 484, sass/style.scss */
+  /* line 378, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 487, sass/style.scss */
+  /* line 381, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 493, sass/style.scss */
+  /* line 387, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 499, sass/style.scss */
+  /* line 393, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 506, sass/style.scss */
+  /* line 400, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -634,7 +475,7 @@ div.gallery-thumbnail-image img {
     text-align: right;
   }
 
-  /* line 513, sass/style.scss */
+  /* line 407, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -642,14 +483,14 @@ div.gallery-thumbnail-image img {
     margin: 40px 0 0 0;
   }
 
-  /* line 519, sass/style.scss */
+  /* line 413, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 524, sass/style.scss */
+  /* line 418, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

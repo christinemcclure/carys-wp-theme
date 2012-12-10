@@ -323,12 +323,6 @@ ul.booze {
 
 /* RESPONSIVE SETTINGS */
 
-@media screen and (min-width: 600px){
-  #header {
-    background-image: url('images/header.png');
-  }
-}
-
 @media screen and (min-width: 1000px) {
 // show regular nav and hide mobile nav
   #nav {

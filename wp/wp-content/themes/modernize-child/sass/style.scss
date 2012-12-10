@@ -133,32 +133,11 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 // HEADER
 
-  #header {
-      width:100%;
-      background-image: url('images/header-mobile.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      .header-background {
-        width:100%;        
-        text-align:center;
-        margin: 10px 0 0 0;
-      }
-      h1 {
-        font-size: 32px;
-      }
-      p {
-        font-family:$headingFont;
-        font-size: 12px;
-        color:white;
-        font-weight:900;
-        margin: 10px 0;
-      }
-    }
+#header {
+
+}
 
 
-    #menu-main-1 li{ 
-        font-size:14px; 
-    }
 
 //FOOTER
 
@@ -206,9 +185,6 @@ div.left-sidebar-wrapper .custom-sidebar-title{
     }
   }
   div.navigation-wrapper {display: none;}
-    #searchsubmit {
-    background-image: url('/wp/wp-content/themes/modernize/images/icon/dark/find-17px.png');
-  }
 }
 
 
@@ -363,6 +339,13 @@ ul.booze {
       display:block;  
       div.search-wrapper {
         display:inline-block;
+      }
+      #searchsubmit {
+        background-image: url('/wp/wp-content/themes/modernize/images/icon/dark/find-17px.png');
+      }
+      // nav bar font size
+      #menu-main-1 li{
+          font-size:14px;
       }
    }
   }

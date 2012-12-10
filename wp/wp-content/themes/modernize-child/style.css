@@ -432,61 +432,60 @@ ul.booze li {
   /* line 364, sass/style.scss */
   #nav div.navigation-wrapper div.search-wrapper {
     display: inline-block;
-    float: left;
   }
 }
 @media screen and (min-width: 950px) {
-  /* line 375, sass/style.scss */
+  /* line 374, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 379, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 381, sass/style.scss */
+  /* line 380, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 383, sass/style.scss */
+  /* line 382, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 388, sass/style.scss */
+  /* line 387, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 394, sass/style.scss */
+  /* line 393, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 397, sass/style.scss */
+  /* line 396, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 403, sass/style.scss */
+  /* line 402, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 409, sass/style.scss */
+  /* line 408, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 416, sass/style.scss */
+  /* line 415, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -494,7 +493,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 423, sass/style.scss */
+  /* line 422, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -502,14 +501,14 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 429, sass/style.scss */
+  /* line 428, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 434, sass/style.scss */
+  /* line 433, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

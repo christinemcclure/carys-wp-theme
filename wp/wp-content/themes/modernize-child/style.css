@@ -160,19 +160,34 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   border-bottom: 1px solid #f3ece1;
 }
 
-/* line 144, sass/style.scss */
+/* line 136, sass/style.scss */
+#header {
+  text-align: center;
+}
+/* line 138, sass/style.scss */
+#header h1 {
+  font-size: 38px;
+  margin: 20px 0 10px 0;
+}
+/* line 142, sass/style.scss */
+#header p {
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+}
+
+/* line 152, sass/style.scss */
 .logo-wrapper {
   margin-top: 1px;
   margin-left: 1px;
   margin-bottom: 1px;
 }
 
-/* line 145, sass/style.scss */
+/* line 153, sass/style.scss */
 .social-wrapper {
   margin-top: 33px;
 }
 
-/* line 147, sass/style.scss */
+/* line 155, sass/style.scss */
 .footer-wrapper {
   background: #332f25;
   width: 100%;
@@ -181,49 +196,49 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   font-size: 14px;
   line-height: 12px;
 }
-/* line 155, sass/style.scss */
+/* line 163, sass/style.scss */
 .footer-wrapper p {
   margin: 10px 10px 0 10px;
 }
-/* line 156, sass/style.scss */
+/* line 164, sass/style.scss */
 .footer-wrapper p + p {
   margin-bottom: 10px;
 }
-/* line 157, sass/style.scss */
+/* line 165, sass/style.scss */
 .footer-wrapper #footer1, .footer-wrapper #footer2, .footer-wrapper #footer3 {
   float: left;
   width: 100%;
   text-align: center;
 }
-/* line 158, sass/style.scss */
+/* line 166, sass/style.scss */
 .footer-wrapper #footer1 a img, .footer-wrapper #footer2 a img, .footer-wrapper #footer3 a img {
   float: left;
   margin: 20px 10px 0 10px;
 }
-/* line 164, sass/style.scss */
+/* line 172, sass/style.scss */
 .footer-wrapper #footer1 #contact, .footer-wrapper #footer2 #contact, .footer-wrapper #footer3 #contact {
   margin-right: 0;
 }
-/* line 167, sass/style.scss */
+/* line 175, sass/style.scss */
 .footer-wrapper #footer2 {
   width: 100px;
   margin-left: 40%;
 }
 
-/* line 176, sass/style.scss */
+/* line 184, sass/style.scss */
 #nav div.responsive-menu-wrapper {
   width: 80%;
   margin: 0 auto;
   display: block;
 }
-/* line 180, sass/style.scss */
+/* line 188, sass/style.scss */
 #nav div.responsive-menu-wrapper #menu-main {
   font-family: "Ruda", Verdana, Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
   color: #332f25;
 }
-/* line 187, sass/style.scss */
+/* line 195, sass/style.scss */
 #nav div.navigation-wrapper {
   display: none;
 }
@@ -236,12 +251,12 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     z-index:50;
 }
 */
-/* line 207, sass/style.scss */
+/* line 215, sass/style.scss */
 .gce-calendar {
   border: 1px solid #a39981;
 }
 
-/* line 211, sass/style.scss */
+/* line 219, sass/style.scss */
 .gce-page-grid .gce-calendar td {
   /* Full calendar table cells */
   border: 1px solid #a39981;
@@ -251,20 +266,20 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   padding: 0;
 }
 
-/* line 219, sass/style.scss */
+/* line 227, sass/style.scss */
 .gce-calendar .gce-event-info {
   /* Event information */
   display: none;
   /* Important! */
 }
 
-/* line 223, sass/style.scss */
+/* line 231, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-day-number {
   /* Day number span */
   font-size: 2em;
 }
 
-/* line 227, sass/style.scss */
+/* line 235, sass/style.scss */
 .gce-month-title {
   /* Month title */
   display: inline-block;
@@ -274,35 +289,35 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 }
 
 /* make tiny month change arrows bigger */
-/* line 236, sass/style.scss */
+/* line 244, sass/style.scss */
 .gce-change-month {
   font-size: 28px;
   cursor: pointer;
 }
 
-/* line 242, sass/style.scss */
+/* line 250, sass/style.scss */
 .gce-page-grid .gce-month-title {
   /* Month title */
   font-size: 26px;
 }
-/* line 245, sass/style.scss */
+/* line 253, sass/style.scss */
 .gce-page-grid .gce-change-month {
   font-size: 38px;
 }
 
-/* line 250, sass/style.scss */
+/* line 258, sass/style.scss */
 .gce-has-events {
   /* Table cells with events */
   background: #d86510;
   cursor: pointer;
 }
 
-/* line 255, sass/style.scss */
+/* line 263, sass/style.scss */
 .gce-today {
   background-color: #e4d4bd;
 }
 
-/* line 259, sass/style.scss */
+/* line 267, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   /* Day headings (S, M etc.) */
   width: 14.29%;
@@ -310,29 +325,29 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   text-align: center;
 }
 
-/* line 265, sass/style.scss */
+/* line 273, sass/style.scss */
 .gce-day-past {
   color: #a39981;
 }
 
 /* keep sidebar grid from floating into page */
-/* line 270, sass/style.scss */
+/* line 278, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   padding: 0;
 }
 
-/* line 274, sass/style.scss */
+/* line 282, sass/style.scss */
 .gcalendar {
   margin: 20px 0;
 }
 
-/* line 281, sass/style.scss */
+/* line 289, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
   margin: 0;
 }
 
-/* line 285, sass/style.scss */
+/* line 293, sass/style.scss */
 .gce-list li {
   list-style-type: none;
   margin: 20px 0;
@@ -341,22 +356,22 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 }
 
 /* CALENDAR TOOLTIP */
-/* line 295, sass/style.scss */
+/* line 303, sass/style.scss */
 .gce-event-info {
   /* Tooltip container */
   background-color: #FFFFFF;
   border: 1px solid #333333;
   max-width: 300px;
 }
-/* line 300, sass/style.scss */
+/* line 308, sass/style.scss */
 .gce-event-info li {
   list-style-type: none;
 }
-/* line 302, sass/style.scss */
+/* line 310, sass/style.scss */
 .gce-event-info li p {
   margin: 0;
 }
-/* line 305, sass/style.scss */
+/* line 313, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
@@ -364,95 +379,95 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   font-size: 18px;
 }
 
-/* line 316, sass/style.scss */
+/* line 324, sass/style.scss */
 ul.booze li {
   margin: 4px 0;
 }
 
-/* line 320, sass/style.scss */
+/* line 328, sass/style.scss */
 #homeEvents ul, #homeEvents .gce-page-list li {
   border: none;
 }
-/* line 321, sass/style.scss */
+/* line 329, sass/style.scss */
 #homeEvents p.bumpDown {
   margin-top: 20px;
 }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 1000px) {
-  /* line 329, sass/style.scss */
+  /* line 337, sass/style.scss */
   #nav div.responsive-menu-wrapper {
     display: none;
   }
-  /* line 332, sass/style.scss */
+  /* line 340, sass/style.scss */
   #nav div.navigation-wrapper {
     display: block;
   }
-  /* line 334, sass/style.scss */
+  /* line 342, sass/style.scss */
   #nav div.navigation-wrapper div.search-wrapper {
     display: inline-block;
   }
-  /* line 337, sass/style.scss */
+  /* line 345, sass/style.scss */
   #nav div.navigation-wrapper #searchsubmit {
     background-image: url("/wp/wp-content/themes/modernize/images/icon/dark/find-17px.png");
   }
-  /* line 341, sass/style.scss */
+  /* line 349, sass/style.scss */
   #nav div.navigation-wrapper #menu-main-1 li {
     font-size: 14px;
   }
 }
 @media screen and (min-width: 950px) {
-  /* line 351, sass/style.scss */
+  /* line 359, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
-  /* line 356, sass/style.scss */
+  /* line 364, sass/style.scss */
   .container .footer-wrapper {
     width: 960px;
   }
-  /* line 357, sass/style.scss */
+  /* line 365, sass/style.scss */
   .container .footer-wrapper p {
     text-align: left;
   }
-  /* line 359, sass/style.scss */
+  /* line 367, sass/style.scss */
   .container .footer-wrapper #footer1 {
     width: 60%;
     float: left;
   }
-  /* line 364, sass/style.scss */
+  /* line 372, sass/style.scss */
   .container .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 20px;
     float: left;
   }
-  /* line 370, sass/style.scss */
+  /* line 378, sass/style.scss */
   .container .footer-wrapper #footer3 {
     width: 25%;
     float: right;
   }
-  /* line 373, sass/style.scss */
+  /* line 381, sass/style.scss */
   .container .footer-wrapper #footer3 p {
     text-align: right;
   }
 
   /*Home Page*/
-  /* line 379, sass/style.scss */
+  /* line 387, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 385, sass/style.scss */
+  /* line 393, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 392, sass/style.scss */
+  /* line 400, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -460,7 +475,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 399, sass/style.scss */
+  /* line 407, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -468,14 +483,14 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 405, sass/style.scss */
+  /* line 413, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 410, sass/style.scss */
+  /* line 418, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

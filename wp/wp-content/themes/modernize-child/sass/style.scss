@@ -43,7 +43,9 @@ $mobileNavBackground: $beige;
 $navBackground: $red;
 $calendarBorder: lighten($black, 40%);
 
-
+img {
+  max-width: 100%;
+}
 // HEADINGS
 
 h1.stunning-text-title{ font-family: $siteTitleFont;} // for all h1 tags
@@ -131,22 +133,31 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 // HEADER
 
-    #header {
-        width:95%;
-        background: url('images/header.jpg')no-repeat top center;
-        p {font-family:$headingFont;}
-        margin:20px 0 0 0;
-        #border:10px solid $black;
-    }
+  #header {
 
-
-    .header-wrapper{
-      background: $white url('images/header-border.png')no-repeat;
-      padding: 10px 0 0 0;
+      background-image: url('images/header-mobile.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      .header-background {
+        width:100%;        
+        text-align:center;
+        margin: 20px 0 0 0;
+      }
+      h1 {
+        font-size: 40px;
+        margin: 20px 0 0 0;
+      }
+      p {
+        font-family:$headingFont;
+        font-size: 16px;
+        color:white;
+        font-weight:900;
+        margin: 20px 0 10px 0;
+      }
     }
 
     .navigation-wrapper {
-        margin: 10px 0 0 0;
+        margin: 0 0 0 10px;
     }
 
     #menu-main-1 li{ 
@@ -348,22 +359,6 @@ ul.booze {
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
-  }
-
-  #nav {
-    background:$navBackground;
-  }
-  #header{
-    padding: 40px 10px 30px 10px;
-    h1{
-        font-size:60px;
-    }
-    p{
-        font-size: 20px;
-        margin: 20px 0 0 40px;
-        color:#fff;
-    }
-    a:hover{color: $orange;}
   }
 
   .container .footer-wrapper {

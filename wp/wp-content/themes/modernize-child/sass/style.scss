@@ -58,7 +58,9 @@ h6{ font-size: 15px; }
 
 
 // BODY
-body, .body-wrapper, html {background:$background;}
+body, .body-wrapper, html {
+  background: $background url(images/teal-pattern.png) repeat top left;
+}
 .content-wrapper, div.container {background:$pageColor;}
 
 body {
@@ -93,7 +95,7 @@ body {
 
 .border {
     padding: 20px;
-    background: white  url("images/vintage_speckles.png") repeat-x top left;
+    background: white url(images/vintage_speckles.png) repeat top left;
 }
 
 .floatLeft {float:left;}

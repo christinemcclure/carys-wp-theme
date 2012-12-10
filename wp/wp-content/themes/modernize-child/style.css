@@ -408,7 +408,7 @@ ul.booze li {
   /* line 344, sass/style.scss */
   #header p {
     font-size: 16px;
-    margin: 10px 0 50px 0;
+    margin: 10px 0 30px 0;
   }
 }
 @media screen and (min-width: 770px) {

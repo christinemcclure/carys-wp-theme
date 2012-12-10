@@ -99,7 +99,7 @@ body {
 
 .border {
     padding: 20px;
-    background: white url(images/vintage_speckles.png) repeat top left;
+    background: $white url(images/vintage_speckles.png) repeat top left;
 }
 
 .floatLeft {float:left;}
@@ -343,7 +343,7 @@ ul.booze {
     }
     p {
       font-size: 16px;
-      margin: 10px 0 50px 0;
+      margin: 10px 0 30px 0;
     }
   }
 }

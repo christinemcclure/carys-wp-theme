@@ -136,16 +136,16 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 #header {
   background-image: url('images/header-mobile.png');
   background-repeat: no-repeat;
-  background-size: 100%, 100%;
+  background-size:100% 100%;
   text-align:center;
   h1 {
-    font-size: 32px;
-    margin:10px 0 10px 0;
+    font-size: 28px;
+    margin:0;
     color: lighten ($orange, 10%);
   }
   p {
-    font-size: 16px;
-    margin: 10px 0 100px 0;
+    font-size: 12px;
+    margin: 0;
     color: lighten($beige, 80%);
   }
 }
@@ -335,13 +335,36 @@ ul.booze {
 }
 
 /* RESPONSIVE SETTINGS */
+@media screen and (min-width: 770px) {
+  #header{
+    h1 {
+      font-size: 32px;
+      margin:10px 0 10px 0;
+    }
+    p {
+      font-size: 16px;
+      margin: 10px 0 50px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  #header {
+    h1 {
+      font-size: 56px;
+      margin: 30px 0 30px 0;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
 
 @media screen and (min-width: 1000px) {
   #header {
     background-image: url('images/header.png');
     text-align:left;
     h1 {
-      font-size: 56px;
       margin:50px 0 10px 10px;
     }
     p {

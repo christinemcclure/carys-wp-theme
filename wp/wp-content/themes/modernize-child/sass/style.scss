@@ -70,7 +70,7 @@ html {
 body {
   font-size: 16px;
   font-family: $bodyFont;
-  a{ color: $linkColor; }
+  a{color: $linkColor; font-weight:900;}
   a:hover{ color: $linkHoverColor; }
   .page-wrapper {
       margin: 20px 0 0 0;

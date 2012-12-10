@@ -76,6 +76,7 @@ body {
 /* line 73, sass/style.scss */
 body a {
   color: #d86510;
+  font-weight: 900;
 }
 /* line 74, sass/style.scss */
 body a:hover {

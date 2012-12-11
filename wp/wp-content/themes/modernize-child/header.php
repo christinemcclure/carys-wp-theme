@@ -17,7 +17,7 @@
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
-
+  <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Walter+Turncoat' rel='stylesheet' type='text/css'>
 	<?php global $gdl_is_responsive ?>
 	<?php if( $gdl_is_responsive ){ ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -110,15 +110,16 @@
 	<?php } ?>
 
 	<div class="container">
-            <div class="header-wrapper">
-		<div id="header" class="sixteen columns mt0">
+    <div class="header-wrapper">
+      <div id="header" class="sixteen columns mt0">
 <!--this section taken from TwentyEleven theme because I don't like the Modernize image-only logo header-->
                                 <!-- Added Modernize class here  -->
+
 				<h1 class="stunning-text-title" id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 				<p id="site-description"><?php bloginfo( 'description' ); ?></p>
 <!--end TwentyEleven header -->
-                </div>
-		</div> <!-- header-wrapper -->
+      </div>
+    </div> <!-- header-wrapper -->
 
 			<!-- Navigation and Search Form -->
 			<div id="nav" class="sixteen columns">

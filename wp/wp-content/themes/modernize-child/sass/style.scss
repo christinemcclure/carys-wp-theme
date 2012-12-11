@@ -139,21 +139,22 @@ div.left-sidebar-wrapper .custom-sidebar-title{
   background-image: url('images/header-mobile.png');
   background-repeat: no-repeat;
   background-size:100% 100%;
+  background-position: top center;
   text-align:center;
   h1 {
     font-family: $siteTitleFont;
-    font-size: 28px;
-    text-shadow: 4px 4px 0px #000;
-    filter: dropshadow(color=#000, offx=4, offy=4);
-    margin:0;
+    font-size: 26px;
+    text-shadow: 2px 2px 0px #000;
+    filter: dropshadow(color=#fff, offx=2, offy=2);
+    margin:10px 0 0 0;
     color: lighten ($orange, 10%);
   }
   p {
     font-family: $siteSubtitleFont;
     font-size: 12px;
     font-weight:900;
-    margin: 0;
-    color: $white;
+    margin-top: -2px 0 0 0;
+    color: $black;
   }
 }
 
@@ -347,6 +348,8 @@ ul.booze {
     h1 {
       font-size: 32px;
       margin:10px 0 10px 0;
+      text-shadow: 4px 4px 0px #000;
+      filter: dropshadow(color=#fff, offx=4, offy=4);
     }
     p {
       font-size: 16px;
@@ -357,27 +360,28 @@ ul.booze {
 
 @media screen and (min-width: 770px) {
   #header {
+    background-image: url('images/header.png');
+    text-align:left;
     h1 {
-      font-size: 56px;
-      margin: 30px 0 30px 0;
+      font-size: 48px;
+      margin:50px 0 10px 10px;
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
+      margin: 20px 0 40px 40px;
     }
   }
 }
 
 @media screen and (min-width: 1000px) {
-  #header {
-    background-image: url('images/header.png');
-    text-align:left;
+  #header{
     h1 {
-      margin:50px 0 10px 30px;
+      font-size: 58px;
+      margin:50px 0 10px 20px;
     }
     p {
-      font-size: 22px;
-      margin: 20px 0 40px 70px;
-      color: $black;
+      font-size: 24px;
+      margin: 20px 0 40px 60px;
     }
   }
 // show regular nav and hide mobile nav

@@ -17,7 +17,9 @@ $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 
 
-/* Old Comic Book
+/*
+COLOR SCHEME: adapted from:
+Old Comic Book
 http://www.colourlovers.com/palette/1660052/Old_Comic_Book
 */
 $black: rgb(5,5,7);
@@ -26,19 +28,19 @@ $red: rgb(228,46,69);
 $cream: lighten(rgb(255,243,190),5%);
 $blue: rgb(50,87,106);
 $white: lighten($cream, 10%);
-
+$orange: rgb(238,125,48);
 
 $background: $blue;
-$headerColor: $yellow;
+$headerColor: $orange;
 $pageColor: $cream;
 $footerColor: $black;
-$linkColor: $red;
-$linkHoverColor: $blue;
+$linkColor: $orange;
+$linkHoverColor: $red;
 $footerBackground: $black;
 $footerText: $yellow;
 $navColor: $black;
 $mobileNavBackground: $cream;
-$navBackground: $red;
+$navBackground: $black;
 $calendarBorder: lighten($black, 40%);
 
 img {
@@ -388,7 +390,8 @@ ul.booze {
       display:none;
     }
     div.navigation-wrapper {
-      display:block;  
+      display:block;
+      background: $navBackground;
       div.search-wrapper {
         display:inline-block;
       }

@@ -17,32 +17,27 @@ $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 
 
-///////
-// COLORS:
-// Modified from
-// Playing with Fire
-// http://www.colourlovers.com/palette/1636937/Playing_with_Fire
+/* Old Comic Book
+http://www.colourlovers.com/palette/1660052/Old_Comic_Book
+*/
+$black: rgb(5,5,7);
+$yellow: rgb(248,213,7);
+$red: rgb(228,46,69);
+$cream: lighten(rgb(255,243,190),5%);
+$blue: rgb(50,87,106);
+$white: lighten($cream, 10%);
 
-$mustard: rgb(200,175,20);
-$brown: rgb(157,126,69);
-$red: rgb(145,0,0);
-$beige: rgb(228,212,189);
-$teal: rgb(2,177,182);
-$black: rgb(51,47,37);
-$orange: darken(rgb(239,127,44),10%);
-$lighterOrange: lighten($orange, 10%);
-$white: lighten($beige, 60%);
 
-$background: $teal;
-$pageColor: lighten($beige,10%);
-$header: $teal;
-$footerColor: $brown;
-$linkColor: $orange;
-$linkHoverColor: $red;
+$background: $blue;
+$headerColor: $yellow;
+$pageColor: $cream;
+$footerColor: $black;
+$linkColor: $red;
+$linkHoverColor: $blue;
 $footerBackground: $black;
-$footerText: $orange;
+$footerText: $yellow;
 $navColor: $black;
-$mobileNavBackground: $beige;
+$mobileNavBackground: $cream;
 $navBackground: $red;
 $calendarBorder: lighten($black, 40%);
 
@@ -66,7 +61,8 @@ h6{ font-size: 15px; }
 
 // BODY
 html {
-  background: lighten($background, 10%) url(images/ben-day-dots3.png) repeat top left;
+  #background: lighten($background, 10%) url(images/ben-day-dots3.png) repeat top left;
+  background: $background;
 }
 .content-wrapper, div.container {background:$pageColor;}
 
@@ -148,9 +144,9 @@ div.left-sidebar-wrapper .custom-sidebar-title{
     text-shadow: 2px 2px 0px #000;
     filter: dropshadow(color=#fff, offx=2, offy=2);
     margin:10px 0 0 0;
-    color: lighten ($orange, 10%);
+    color: $headerColor;
   }
-  a:hover {color: $orange;} // lighter compass mixin doesn't work here
+  a:hover {color: $headerColor;} // lighter compass mixin doesn't work here
   p {
     font-family: $siteSubtitleFont;
     font-size: 12px;
@@ -271,7 +267,7 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 }
 
 .gce-has-events{ /* Table cells with events */
-  background:$orange;
+  background:$yellow;
 	cursor:pointer;
 }
 

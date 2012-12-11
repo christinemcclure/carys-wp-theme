@@ -7,161 +7,165 @@ Template: modernize
 Author: Goodlayers
 Author URI: http://goodlayers.com
 */
-/* line 49, sass/style.scss */
+/* Old Comic Book
+http://www.colourlovers.com/palette/1660052/Old_Comic_Book
+*/
+/* line 44, sass/style.scss */
 img {
   max-width: 100%;
 }
 
-/* line 54, sass/style.scss */
+/* line 49, sass/style.scss */
 h1.stunning-text-title {
   font-family: "Kaushan Script", Verdana, Arial, sans-serif;
 }
 
-/* line 55, sass/style.scss */
+/* line 50, sass/style.scss */
 h1.gdl-divider {
   border: none;
 }
 
-/* line 57, sass/style.scss */
+/* line 52, sass/style.scss */
 h2, h3, h4, h5, h6, .gdl-title {
   font-family: "Ruda", Verdana, Arial, sans-serif;
 }
 
-/* line 59, sass/style.scss */
+/* line 54, sass/style.scss */
 h1 {
   font-size: 34px;
 }
 
-/* line 60, sass/style.scss */
+/* line 55, sass/style.scss */
 h2 {
   font-size: 25px;
   margin-top: 24px;
 }
 
-/* line 61, sass/style.scss */
+/* line 56, sass/style.scss */
 h3 {
   font-size: 20px;
 }
 
-/* line 62, sass/style.scss */
+/* line 57, sass/style.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 63, sass/style.scss */
+/* line 58, sass/style.scss */
 h5 {
   font-size: 16px;
 }
 
-/* line 64, sass/style.scss */
+/* line 59, sass/style.scss */
 h6 {
   font-size: 15px;
 }
 
-/* line 68, sass/style.scss */
+/* line 63, sass/style.scss */
 html {
-  background: #03e2e8 url(images/ben-day-dots3.png) repeat top left;
+  #background: #42738d url(images/ben-day-dots3.png) repeat top left;
+  background: #32576a;
 }
 
-/* line 71, sass/style.scss */
+/* line 67, sass/style.scss */
 .content-wrapper, div.container {
-  background: #f3ece1;
+  background: #fff8d8;
 }
 
-/* line 73, sass/style.scss */
+/* line 69, sass/style.scss */
 body {
   font-size: 16px;
   font-family: "PT Sans", "Times New Roman", Times, serif;
 }
-/* line 76, sass/style.scss */
+/* line 72, sass/style.scss */
 body a {
-  color: #d86510;
+  color: #e42e45;
   font-weight: 900;
 }
-/* line 77, sass/style.scss */
+/* line 73, sass/style.scss */
 body a:hover {
-  color: #910000;
+  color: #32576a;
 }
-/* line 78, sass/style.scss */
+/* line 74, sass/style.scss */
 body .page-wrapper {
   margin: 20px 0 0 0;
 }
-/* line 82, sass/style.scss */
+/* line 78, sass/style.scss */
 body h1.stunning-text-title {
   font-size: 40px;
   margin: 0 0 0 -35px;
 }
-/* line 86, sass/style.scss */
+/* line 82, sass/style.scss */
 body .container {
   padding: 10px;
 }
 
-/* line 95, sass/style.scss */
+/* line 91, sass/style.scss */
 .tiltLeft {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
 }
 
-/* line 98, sass/style.scss */
+/* line 94, sass/style.scss */
 .tiltRight {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
 }
 
-/* line 103, sass/style.scss */
+/* line 99, sass/style.scss */
 .border {
   padding: 20px;
   background: white url(images/vintage_speckles.png) repeat top left;
 }
 
-/* line 108, sass/style.scss */
+/* line 104, sass/style.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 109, sass/style.scss */
+/* line 105, sass/style.scss */
 .floatRight {
   float: right;
 }
 
-/* line 110, sass/style.scss */
+/* line 106, sass/style.scss */
 .clearRight {
   clear: right;
 }
 
-/* line 111, sass/style.scss */
+/* line 107, sass/style.scss */
 img.size-full {
   margin: 20px;
 }
 
-/* line 112, sass/style.scss */
+/* line 108, sass/style.scss */
 p.bumpDown {
   padding-bottom: 20px;
 }
 
-/* line 115, sass/style.scss */
+/* line 111, sass/style.scss */
 p.bumpUp {
   padding-top: 20px;
 }
 
-/* line 120, sass/style.scss */
+/* line 116, sass/style.scss */
 div.gallery-thumbnail-image img {
   width: 120px;
 }
 
-/* line 126, sass/style.scss */
+/* line 122, sass/style.scss */
 div.left-sidebar-wrapper .custom-sidebar-title {
-  border: 1px solid #f3ece1;
+  border: 1px solid #fff8d8;
 }
 
-/* line 130, sass/style.scss */
+/* line 126, sass/style.scss */
 .gdl-divider + .gdl-divider, .gdl-divider {
   padding: 20px 0 0 0;
   border-top: none;
-  border-bottom: 1px solid #f3ece1;
+  border-bottom: 1px solid #fff8d8;
 }
 
-/* line 139, sass/style.scss */
+/* line 135, sass/style.scss */
 #header {
   background-image: url("images/header-mobile.png");
   background-repeat: no-repeat;
@@ -169,80 +173,80 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   background-position: top center;
   text-align: center;
 }
-/* line 145, sass/style.scss */
+/* line 141, sass/style.scss */
 #header h1 {
   font-family: "Permanent Marker", cursive;
   font-size: 26px;
   text-shadow: 2px 2px 0px #000;
   filter: dropshadow(color=white, offx=2, offy=2);
   margin: 10px 0 0 0;
-  color: lighten #d86510, 10%;
+  color: #f8d507;
 }
-/* line 153, sass/style.scss */
+/* line 149, sass/style.scss */
 #header a:hover {
-  color: #d86510;
+  color: #f8d507;
 }
-/* line 154, sass/style.scss */
+/* line 150, sass/style.scss */
 #header p {
   font-family: "Walter Turncoat", cursive;
   font-size: 12px;
   font-weight: 900;
   margin-top: -2px 0 0 0;
-  color: #332f25;
+  color: #050507;
 }
 
-/* line 166, sass/style.scss */
+/* line 162, sass/style.scss */
 .footer-wrapper {
   clear: both;
   max-width: 980px;
   text-align: center;
   color: white;
-  background: #332f25;
+  background: #050507;
   font-size: 14px;
   line-height: 14px;
 }
-/* line 175, sass/style.scss */
+/* line 171, sass/style.scss */
 .footer-wrapper div {
   border: none;
   width: 90%;
   margin: 0 auto;
   padding: 10px;
 }
-/* line 180, sass/style.scss */
+/* line 176, sass/style.scss */
 .footer-wrapper div p {
   margin: 10px 0;
 }
-/* line 182, sass/style.scss */
+/* line 178, sass/style.scss */
 .footer-wrapper #footer2 {
   width: 100px;
   margin: 0 auto;
   margin-top: -16px;
 }
-/* line 186, sass/style.scss */
+/* line 182, sass/style.scss */
 .footer-wrapper #footer2 a {
   width: 20%;
   float: left;
   margin: 0 0 0 20%;
 }
-/* line 192, sass/style.scss */
+/* line 188, sass/style.scss */
 .footer-wrapper #footer3 {
   clear: both;
 }
 
-/* line 199, sass/style.scss */
+/* line 195, sass/style.scss */
 #nav div.responsive-menu-wrapper {
   width: 80%;
   margin: 0 auto;
   display: block;
 }
-/* line 203, sass/style.scss */
+/* line 199, sass/style.scss */
 #nav div.responsive-menu-wrapper #menu-main {
   font-family: "Ruda", Verdana, Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  color: #332f25;
+  color: #050507;
 }
-/* line 210, sass/style.scss */
+/* line 206, sass/style.scss */
 #nav div.navigation-wrapper {
   display: none;
 }
@@ -255,35 +259,35 @@ div.left-sidebar-wrapper .custom-sidebar-title {
     z-index:50;
 }
 */
-/* line 230, sass/style.scss */
+/* line 226, sass/style.scss */
 .gce-calendar {
-  border: 1px solid #a39981;
+  border: 1px solid #5a5a7e;
 }
 
-/* line 234, sass/style.scss */
+/* line 230, sass/style.scss */
 .gce-page-grid .gce-calendar td {
   /* Full calendar table cells */
-  border: 1px solid #a39981;
+  border: 1px solid #5a5a7e;
   text-align: center;
   height: 80px;
   vertical-align: middle;
   padding: 0;
 }
 
-/* line 242, sass/style.scss */
+/* line 238, sass/style.scss */
 .gce-calendar .gce-event-info {
   /* Event information */
   display: none;
   /* Important! */
 }
 
-/* line 246, sass/style.scss */
+/* line 242, sass/style.scss */
 .gce-page-grid .gce-calendar .gce-day-number {
   /* Day number span */
   font-size: 2em;
 }
 
-/* line 250, sass/style.scss */
+/* line 246, sass/style.scss */
 .gce-month-title {
   /* Month title */
   display: inline-block;
@@ -293,89 +297,89 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 }
 
 /* make tiny month change arrows bigger */
-/* line 259, sass/style.scss */
+/* line 255, sass/style.scss */
 .gce-change-month {
   font-size: 28px;
   cursor: pointer;
 }
 
-/* line 265, sass/style.scss */
+/* line 261, sass/style.scss */
 .gce-page-grid .gce-month-title {
   /* Month title */
   font-size: 26px;
 }
-/* line 268, sass/style.scss */
+/* line 264, sass/style.scss */
 .gce-page-grid .gce-change-month {
   font-size: 38px;
 }
 
-/* line 273, sass/style.scss */
+/* line 269, sass/style.scss */
 .gce-has-events {
   /* Table cells with events */
-  background: #d86510;
+  background: #f8d507;
   cursor: pointer;
 }
 
-/* line 278, sass/style.scss */
+/* line 274, sass/style.scss */
 .gce-today {
-  background-color: #e4d4bd;
+  background-color: #ffeea4;
 }
 
-/* line 282, sass/style.scss */
+/* line 278, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   /* Day headings (S, M etc.) */
   width: 14.29%;
-  border: 1px solid #a39981;
+  border: 1px solid #5a5a7e;
   text-align: center;
 }
 
-/* line 288, sass/style.scss */
+/* line 284, sass/style.scss */
 .gce-day-past {
-  color: #a39981;
+  color: #5a5a7e;
 }
 
 /* keep sidebar grid from floating into page */
-/* line 293, sass/style.scss */
+/* line 289, sass/style.scss */
 .gce-calendar th, .gce-calendar td {
   padding: 0;
 }
 
-/* line 297, sass/style.scss */
+/* line 293, sass/style.scss */
 .gcalendar {
   margin: 20px 0;
 }
 
-/* line 304, sass/style.scss */
+/* line 300, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
   margin: 0;
 }
 
-/* line 308, sass/style.scss */
+/* line 304, sass/style.scss */
 .gce-list li {
   list-style-type: none;
   margin: 20px 0;
   padding: 0;
-  border-bottom: 1px solid #a39981;
+  border-bottom: 1px solid #5a5a7e;
 }
 
 /* CALENDAR TOOLTIP */
-/* line 318, sass/style.scss */
+/* line 314, sass/style.scss */
 .gce-event-info {
   /* Tooltip container */
   background-color: #FFFFFF;
   border: 1px solid #333333;
   max-width: 300px;
 }
-/* line 323, sass/style.scss */
+/* line 319, sass/style.scss */
 .gce-event-info li {
   list-style-type: none;
 }
-/* line 325, sass/style.scss */
+/* line 321, sass/style.scss */
 .gce-event-info li p {
   margin: 0;
 }
-/* line 328, sass/style.scss */
+/* line 324, sass/style.scss */
 .gce-event-info .gce-tooltip-title {
   /* 'Events on...' text */
   margin: 5px;
@@ -383,137 +387,137 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   font-size: 18px;
 }
 
-/* line 339, sass/style.scss */
+/* line 335, sass/style.scss */
 ul.booze li {
   margin: 4px 0;
 }
 
-/* line 343, sass/style.scss */
+/* line 339, sass/style.scss */
 #homeEvents ul, #homeEvents .gce-page-list li {
   border: none;
 }
-/* line 344, sass/style.scss */
+/* line 340, sass/style.scss */
 #homeEvents p.bumpDown {
   margin-top: 20px;
 }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 770px) {
-  /* line 350, sass/style.scss */
+  /* line 346, sass/style.scss */
   #header h1 {
     font-size: 32px;
     margin: 10px 0 10px 0;
     text-shadow: 4px 4px 0px #000;
     filter: dropshadow(color=white, offx=4, offy=4);
   }
-  /* line 356, sass/style.scss */
+  /* line 352, sass/style.scss */
   #header p {
     font-size: 16px;
     margin: 10px 0 30px 0;
   }
 }
 @media screen and (min-width: 770px) {
-  /* line 364, sass/style.scss */
+  /* line 360, sass/style.scss */
   #header {
     background-image: url("images/header.png");
     text-align: left;
   }
-  /* line 367, sass/style.scss */
+  /* line 363, sass/style.scss */
   #header h1 {
     font-size: 48px;
     margin: 50px 0 10px 10px;
   }
-  /* line 371, sass/style.scss */
+  /* line 367, sass/style.scss */
   #header p {
     font-size: 18px;
     margin: 20px 0 40px 40px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 380, sass/style.scss */
+  /* line 376, sass/style.scss */
   #header h1 {
     font-size: 58px;
     margin: 50px 0 10px 20px;
   }
-  /* line 384, sass/style.scss */
+  /* line 380, sass/style.scss */
   #header p {
     font-size: 24px;
     margin: 20px 0 40px 60px;
   }
 
-  /* line 391, sass/style.scss */
+  /* line 387, sass/style.scss */
   #nav div.responsive-menu-wrapper {
     display: none;
   }
-  /* line 394, sass/style.scss */
+  /* line 390, sass/style.scss */
   #nav div.navigation-wrapper {
     display: block;
   }
-  /* line 396, sass/style.scss */
+  /* line 392, sass/style.scss */
   #nav div.navigation-wrapper div.search-wrapper {
     display: inline-block;
   }
-  /* line 399, sass/style.scss */
+  /* line 395, sass/style.scss */
   #nav div.navigation-wrapper #searchsubmit {
     background-image: url("/wp/wp-content/themes/modernize/images/icon/dark/find-17px.png");
   }
-  /* line 403, sass/style.scss */
+  /* line 399, sass/style.scss */
   #nav div.navigation-wrapper #menu-main-1 li {
     font-size: 14px;
   }
 
-  /* line 409, sass/style.scss */
+  /* line 405, sass/style.scss */
   .footer-wrapper {
     overflow: hidden;
   }
-  /* line 411, sass/style.scss */
+  /* line 407, sass/style.scss */
   .footer-wrapper p {
     text-align: left;
   }
-  /* line 412, sass/style.scss */
+  /* line 408, sass/style.scss */
   .footer-wrapper #footer1 {
     width: 50%;
     float: left;
   }
-  /* line 417, sass/style.scss */
+  /* line 413, sass/style.scss */
   .footer-wrapper #footer2 {
     width: 10%;
     margin: 20px 0 0 0;
     float: left;
   }
-  /* line 423, sass/style.scss */
+  /* line 419, sass/style.scss */
   .footer-wrapper #footer3 {
     width: 25%;
     float: right;
     margin: -70px 0 0 0;
   }
-  /* line 427, sass/style.scss */
+  /* line 423, sass/style.scss */
   .footer-wrapper #footer3 p {
     text-align: right;
   }
 
-  /* line 431, sass/style.scss */
+  /* line 427, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
   /*Home Page*/
-  /* line 439, sass/style.scss */
+  /* line 435, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 445, sass/style.scss */
+  /* line 441, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 452, sass/style.scss */
+  /* line 448, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -521,7 +525,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 459, sass/style.scss */
+  /* line 455, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -529,14 +533,14 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 465, sass/style.scss */
+  /* line 461, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
     clear: both;
     text-align: left;
   }
-  /* line 470, sass/style.scss */
+  /* line 466, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

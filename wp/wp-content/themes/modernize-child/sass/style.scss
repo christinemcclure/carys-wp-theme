@@ -10,7 +10,9 @@ Author URI: http://goodlayers.com
 @import url("../modernize/style.css");
 
 // FONTS (Google fonts set in Modernize theme)
-$siteTitleFont: 'Kaushan Script', Verdana, Arial,  sans-serif;
+$siteTitleFont: 'Permanent Marker', cursive;
+$siteSubtitleFont: 'Walter Turncoat', cursive;
+$stunningTitle: 'Kaushan Script', Verdana, Arial,  sans-serif;
 $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 
@@ -48,7 +50,7 @@ img {
 }
 // HEADINGS
 
-h1.stunning-text-title{ font-family: $siteTitleFont;} // for all h1 tags
+h1.stunning-text-title{ font-family: $stunningTitle;} // for all h1 tags
 h1.gdl-divider{ border:none;}
 
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; }
@@ -139,12 +141,17 @@ div.left-sidebar-wrapper .custom-sidebar-title{
   background-size:100% 100%;
   text-align:center;
   h1 {
+    font-family: $siteTitleFont;
     font-size: 28px;
+    text-shadow: 4px 4px 0px #000;
+    filter: dropshadow(color=#000, offx=4, offy=4);
     margin:0;
     color: lighten ($orange, 10%);
   }
   p {
+    font-family: $siteSubtitleFont;
     font-size: 12px;
+    font-weight:900;
     margin: 0;
     color: $white;
   }
@@ -365,11 +372,12 @@ ul.booze {
     background-image: url('images/header.png');
     text-align:left;
     h1 {
-      margin:50px 0 10px 10px;
+      margin:50px 0 10px 30px;
     }
     p {
       font-size: 22px;
-      margin: 30px 0 40px 50px;
+      margin: 20px 0 40px 70px;
+      color: $black;
     }
   }
 // show regular nav and hide mobile nav

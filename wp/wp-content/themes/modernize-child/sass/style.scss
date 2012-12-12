@@ -194,6 +194,8 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 
 //FOOTER
+
+// This stuff is awful. Fix via footer.php later
 .footer-wrapper{
   clear:both;
   margin: 30px 0 0 0;
@@ -201,29 +203,28 @@ div.left-sidebar-wrapper .custom-sidebar-title{
   text-align: center;
   color: $black;
   font-size:14px;
-  line-height:14px;
-        background-image: url('images/nav-border.png');
-        background-size:960px 100%;
-        background-repeat: no-repeat;
-        background-position: bottom center;
+  background-image: url('images/nav-border.png');
+  background-size:960px 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
   div {
-    border:none;
-    width: 90%;
-    margin: 0 auto;
-    padding: 4px;
     p{margin: 2px 0;}
+    border: 1px solid green;
   }
+  #footer1 {margin: 10px 0 0 20px;}
   #footer2 {
     width: 100px;
     margin: 0 auto;
-    margin-top: -16px;
     a {
       width: 20%;
       float:left;
-      margin: 0 0 0 20%;
+      padding: 0 0 20px 20%;
     }
   }
-  #footer3 {clear:both;}
+  #footer3 {
+    clear:left;
+    padding: 16px 50px 0 0;
+  }
 
 }
 

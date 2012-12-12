@@ -30,9 +30,9 @@ $blue: rgb(50,87,106);
 $white: lighten($cream, 10%);
 $orange: darken(rgb(238,125,48),10%);
 
-$background: lighten($black,25%);
+$background: lighten($black,15%);
 $headerColor: $orange;
-$pageColor: $blue;
+$pageColor: $cream;
 $footerColor: $black;
 $linkColor: $orange;
 $linkHoverColor: $red;
@@ -42,6 +42,21 @@ $navColor: $black;
 $mobileNavBackground: $cream;
 $navBackground: $black;
 $calendarBorder: lighten($black, 40%);
+
+// MIXINS
+@mixin book-shape {
+  // slightly rounded corners
+  $borderRadius: 4px;
+  -webkit-border-radius: $borderRadius;
+  border-radius: $borderRadius;
+
+  //drop shadow
+  $blackAlpha: rgba(5,5,7,.8);
+  -webkit-box-shadow:  10px 10px 5px 5px $blackAlpha;
+  box-shadow:  10px 10px 5px 5px $blackAlpha;
+}
+
+
 
 img {
   max-width: 100%;
@@ -71,10 +86,20 @@ html {
   background: $blue;
   width: 1000px;
   padding: 40px;
+  @include book-shape;
 }
-.page-wrapper{
-  background:$pageColor url(images/old-paper.png) repeat top left;
+.content-wrapper {
+
 }
+
+.content-wrapper{
+  background-image: url('images/page-top.png'),url('images/page-middle.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat, repeat-y;
+  background-position: left top, left 20px;
+}
+
+
 body {
   font-size: 16px;
   font-family: $bodyFont;

@@ -68,12 +68,14 @@ $calendarBorder: lighten($black, 40%);
 img {
   max-width: 100%;
 }
-// HEADINGS
-
+// hide stupid dividers
 h1.stunning-text-title{ font-size:48px; color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
-div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li,div.custom-sidebar ul li li:last-child, blockquote,
-.gdl-divider + .gdl-divider, .gdl-divider, h1.gdl-divider, .content-wrapper .gdl-divider, div.left-sidebar-wrapper .custom-sidebar-title
-{ border:none;}
+.blog-thumbnail-info, .gce-list li,div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li,
+div.custom-sidebar ul li li:last-child, blockquote, .gdl-divider + .gdl-divider, .gdl-divider, h1.gdl-divider,
+.content-wrapper .gdl-divider, div.left-sidebar-wrapper .custom-sidebar-title
+{ border:none !important;}
+
+//hide comment link
 .blog-thumbnail-comment {display:none;}
 
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 800; color:$green}
@@ -245,22 +247,12 @@ div.gallery-thumbnail-image img{
 
   #menu-main, #menu-main-1{
     font-family: $navFont;
-    font-size: 13px;
+    font-size: 15px;
     font-weight:800;
     color: $black;
     a {color:$black;}
     a:hover {color: $orange;}
   }
-
-
-/*
-#mask-test{
-    position:absolute;
-    top: 30px;
-    left:-50px;
-    z-index:50;
-}
-*/
 
 
 
@@ -349,7 +341,8 @@ ul.booze {
         background-size: contain auto;
         background-repeat: no-repeat;
         background-position: top center;
-        li {margin: 10px 0 0 0;}
+        li {margin: 12px 0 0 0;}
+        li:first-child {margin-left:30px;}
       }
    }
 

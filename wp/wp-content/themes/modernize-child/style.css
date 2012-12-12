@@ -32,6 +32,11 @@ div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li, div.custom-sidebar 
   border: none;
 }
 
+/* line 77, sass/style.scss */
+.blog-thumbnail-comment {
+  display: none;
+}
+
 /* line 79, sass/style.scss */
 h2, h3, h4, h5, h6, .gdl-title {
   font-family: "Valeria Round", Verdana, Arial, sans-serif;

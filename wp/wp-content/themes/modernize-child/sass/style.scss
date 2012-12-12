@@ -197,14 +197,16 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 // This stuff is awful. Fix via footer.php later
 .footer-wrapper{
+  width: 960px;
+  margin: 0 auto;
   clear:both;
-  margin: 30px 0 0 0;
+  margin-top: 30px;
   max-width: 980px; // need this to keep box from popping out of container
   text-align: center;
   color: $black;
   font-size:14px;
   background-image: url('images/nav-border.png');
-  background-size:960px 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
   div {
@@ -344,11 +346,12 @@ ul.booze {
     div.navigation-wrapper {
       display:block;
       #menu-main-1 {
+        width: 940px;
         height:60px;
-        margin: 20px 0 0 20px;
+        margin: 20px 0 10px 0;
         padding: 0 20px;
         background-image: url('images/nav-border.png');
-        background-size:100% auto;
+        background-size: contain auto;
         background-repeat: no-repeat;
         background-position: top center;
         li {margin: 10px 0 0 0;}

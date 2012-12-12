@@ -8,8 +8,8 @@
         </p>
       </div>
       <div id="footer2">
-        <a target="_blank" href="https://www.facebook.com/pages/Carys-Lounge/149325854309"><img src="http://caryslounge.com/wp/wp-content/themes/modernize/images/icon/light/social/facebook.png" id="fb" title="Like us on Facebook"></a>
-        <a href="/wp/contact"><img id="contact" src="http://caryslounge.com/wp/wp-content/themes/modernize/images/icon/light/social/email.png" title="Contact us"></a>
+        <a target="_blank" href="https://www.facebook.com/pages/Carys-Lounge/149325854309"><img src="/wp/wp-content/themes/modernize/images/icon/dark/social/facebook.png" id="fb" title="Like us on Facebook"></a>
+        <a href="/wp/contact"><img id="contact" src="/wp/wp-content/themes/modernize/images/icon/dark/social/email.png" title="Contact us"></a>
       </div>
       <div id="footer3">
         <p>&copy; 2012, Cary's Lounge</p>

@@ -27,7 +27,7 @@ h1.stunning-text-title {
 }
 
 /* line 76, sass/style.scss */
-div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li, div.custom-sidebar ul li li:last-child, #quotes blockquote
+div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li, div.custom-sidebar ul li li:last-child, blockquote,
 .gdl-divider + .gdl-divider, .gdl-divider, h1.gdl-divider, .content-wrapper .gdl-divider, div.left-sidebar-wrapper .custom-sidebar-title {
   border: none;
 }

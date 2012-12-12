@@ -30,10 +30,9 @@ $blue: rgb(50,87,106);
 $white: lighten($cream, 10%);
 $orange: darken(rgb(238,125,48),10%);
 
-$background: $blue;
+$background: lighten($black,25%);
 $headerColor: $orange;
-$pageColor: $cream;
-$pageColor: darken(#FFF8D8, 50%);
+$pageColor: $blue;
 $footerColor: $black;
 $linkColor: $orange;
 $linkHoverColor: $red;
@@ -67,10 +66,15 @@ html {
   #background: lighten($background, 10%) url(images/ben-day-dots3.png) repeat top left;
   background: $background;
 }
-.content-wrapper, div.container {
-  background:$pageColor url(images/old-paper.png) repeat top left;;
+.body-wrapper {
+  margin: 0 auto;
+  background: $blue;
+  width: 1000px;
+  padding: 40px;
 }
-
+.page-wrapper{
+  background:$pageColor url(images/old-paper.png) repeat top left;
+}
 body {
   font-size: 16px;
   font-family: $bodyFont;

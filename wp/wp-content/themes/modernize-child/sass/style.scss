@@ -436,12 +436,14 @@ ul.booze {
     div.navigation-wrapper {
       display:block;
       #menu-main-1 {
+        height:60px;
         margin: 20px 0 0 20px;
         padding: 0 20px;
         background-image: url('images/nav-border.png');
-        background-size:940px 100%;
+        background-size:100% auto;
         background-repeat: no-repeat;
         background-position: top center;
+        li {margin: 10px 0 0 0;}
       }
    }
 

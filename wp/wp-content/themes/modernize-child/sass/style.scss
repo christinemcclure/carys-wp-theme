@@ -71,7 +71,10 @@ img {
 // HEADINGS
 
 h1.stunning-text-title{ font-size:48px; color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
-h1.gdl-divider{ border:none;}
+div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li,div.custom-sidebar ul li li:last-child, #quotes blockquote
+.gdl-divider + .gdl-divider, .gdl-divider, h1.gdl-divider, .content-wrapper .gdl-divider, div.left-sidebar-wrapper .custom-sidebar-title
+{ border:none;}
+
 
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 800; color:$green}
 
@@ -157,17 +160,6 @@ div.gallery-thumbnail-image img{
   width:120px;
 }
 
-// Hide sidebar borders
-
-div.left-sidebar-wrapper .custom-sidebar-title{
-  border:1px solid $pageColor;
-}
-
-.gdl-divider + .gdl-divider, .gdl-divider{
-  padding: 20px 0 0 0;
-  border-top:none;
-  border-bottom:1px solid $pageColor; // make the same color or Modernize original shows through
-}
 
 
 // HEADER

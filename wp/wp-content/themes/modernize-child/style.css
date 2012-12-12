@@ -231,7 +231,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
   max-width: 980px;
   text-align: center;
   color: #050507;
-  font-size: 14px;
+  font-size: 12px;
   background-image: url("images/nav-border.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 /* line 221, sass/style.scss */
 .footer-wrapper #footer2 {
   width: 100px;
-  margin: 0 auto;
+  padding: 0 0 0 70px;
 }
 /* line 224, sass/style.scss */
 .footer-wrapper #footer2 a {
@@ -259,7 +259,7 @@ div.left-sidebar-wrapper .custom-sidebar-title {
 /* line 230, sass/style.scss */
 .footer-wrapper #footer3 {
   clear: left;
-  padding: 16px 50px 0 0;
+  padding: 16px 20px 0 0;
 }
 
 /* line 240, sass/style.scss */

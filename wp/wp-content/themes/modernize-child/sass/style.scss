@@ -105,9 +105,6 @@ body {
   font-family: $bodyFont;
   a{color: $linkColor; font-weight:900;}
   a:hover{ color: $linkHoverColor; }
-  .page-wrapper {
-      margin: 20px 0 0 0;
-  }
 
   h1.stunning-text-title {
     font-size:40px;
@@ -268,79 +265,6 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 // Google Calendar Events Plugin
 
-// Caledar grid
-.gce-calendar{
- border: 1px solid $calendarBorder; 
-}
-
-.gce-page-grid .gce-calendar td{ /* Full calendar table cells */
-	border:1px solid $calendarBorder;
-	text-align:center;
-	height:80px;
-	vertical-align:middle;
-	padding:0;
-}
-
-.gce-calendar .gce-event-info{ /* Event information */
-	display:none; /* Important! */
-}
-
-.gce-page-grid .gce-calendar .gce-day-number{ /* Day number span */
-	font-size:2em;
-}
-
-.gce-month-title{ /* Month title */
-	display:inline-block;
-	width:80%;
-  font-family:$headingFont;
-  font-size:16px;
-}
-
-
-/* make tiny month change arrows bigger */
-.gce-change-month {
-    font-size:28px;
-    cursor:pointer;
-}
-
-.gce-page-grid{
-  .gce-month-title{ /* Month title */
-    font-size:26px;
-  }
-  .gce-change-month {
-      font-size:38px;
-  }
-}
-
-.gce-has-events{ /* Table cells with events */
-  background:$yellow;
-	cursor:pointer;
-}
-
-.gce-today{
-  background-color:darken($pageColor, 10%);
-}
-
-.gce-calendar th, .gce-calendar td{ /* Day headings (S, M etc.) */
-	width:14.29%;
-	border:1px solid $calendarBorder;
-	text-align:center;
-}
-
-.gce-day-past {
-  color: lighten($black,40%);
-}
-
-/* keep sidebar grid from floating into page */
-.gce-calendar th, .gce-calendar td {
-    padding:0;
-}
-
-.gcalendar{
-  margin:20px 0;
-}
-
-
 // Calendar page list
 
 .gce-page-list .gce-list p{ /* Each piece of information in the list */
@@ -352,26 +276,6 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 	margin:20px 0;
 	padding:0;
   border-bottom: 1px solid $calendarBorder;
-}
-
-
-/* CALENDAR TOOLTIP */
-
-.gce-event-info{ /* Tooltip container */
-	background-color:#FFFFFF;
-	border:1px solid #333333;
-	max-width:300px;
-
-  li {
-    list-style-type:none;
-    p {margin:0;}
-  }
-
-  .gce-tooltip-title{ /* 'Events on...' text */
-    margin:5px;
-    font-weight:bold;
-    font-size:18px;
-  }
 }
 
 

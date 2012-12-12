@@ -119,10 +119,8 @@
 				<p id="site-description"><?php bloginfo( 'description' ); ?></p>
 <!--end TwentyEleven header -->
       </div>
-    </div> <!-- header-wrapper -->
 
-			<!-- Navigation and Search Form -->
-			<div id="nav" class="sixteen columns">
+			<!-- Navigation -->
 				<?php
 					if( $gdl_is_responsive ){
 						dropdown_menu( array('dropdown_title' => '-- Main Menu --', 'indent_string' => '- ', 'indent_after' => '','container' => 'div', 'container_class' => 'responsive-menu-wrapper', 'theme_location'=>'main_menu') );
@@ -131,13 +129,10 @@
 				<div class="navigation-wrapper">
 					<!-- Get Navigation -->
 					<?php wp_nav_menu( array('container' => 'div', 'container_class' => 'menu-wrapper', 'container_id' => 'main-superfish-wrapper', 'menu_class'=> 'sf-menu',  'theme_location' => 'main_menu' ) ); ?>
-
-					<!-- Get Search form -->
-					<?php if(get_option(THEME_SHORT_NAME.'_enable_top_search','enable') == 'enable'){?>
-					<div class="search-wrapper"><?php get_search_form(); ?></div>
-					<?php } ?>
-
 					<br class="clear">
 				</div>
-			</div>
+    </div> <!-- header-wrapper -->
+
+
+
 			<br class="clear">

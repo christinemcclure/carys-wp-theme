@@ -10,12 +10,12 @@ Author URI: http://goodlayers.com
 @import url("../modernize/style.css");
 
 // FONTS (Google fonts set in Modernize theme)
-$siteTitleFont: 'Permanent Marker', cursive;
-$siteSubtitleFont: 'Walter Turncoat', cursive;
+$siteTitleFont: 'Permanent Marker',Verdana, Arial,  sans-serif;
+$siteSubtitleFont: 'Walter Turncoat', Verdana, Arial,  sans-serif;
 $stunningTitle: 'Kaushan Script', Verdana, Arial,  sans-serif;
 $headingFont: 'Ruda', Verdana, Arial,  sans-serif;
 $bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
-
+$navFont: $siteSubtitleFont;
 
 /*
 COLOR SCHEME: adapted from:
@@ -200,7 +200,7 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 
 
 // NAVIGATION
-#nav {
+
   div.responsive-menu-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -212,10 +212,18 @@ div.left-sidebar-wrapper .custom-sidebar-title{
       color: $black;
     }
   }
+
   div.navigation-wrapper {display: none;}
-}
 
 
+  #menu-main, #menu-main-1{
+    font-family: $navFont;
+    font-size: 13px;
+    font-weight:800;
+    color: $black;
+    a {color:$black;}
+    a:hover {color: $orange;}
+  }
 
 
 /*
@@ -392,25 +400,21 @@ ul.booze {
     }
   }
 // show regular nav and hide mobile nav
-  #nav {
+
     div.responsive-menu-wrapper{
       display:none;
     }
     div.navigation-wrapper {
       display:block;
-      background: $navBackground;
-      div.search-wrapper {
-        display:inline-block;
-      }
-      #searchsubmit {
-        background-image: url('/wp/wp-content/themes/modernize/images/icon/dark/find-17px.png');
-      }
-      // nav bar font size
-      #menu-main-1 li{
-          font-size:14px;
+      #menu-main-1 {
+        margin: 20px 0 0 -20px;
+        background-image: url('images/nav-border.png');
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
       }
    }
-  }
+
 
   .footer-wrapper {
     overflow:hidden;// need because only floated divs later on

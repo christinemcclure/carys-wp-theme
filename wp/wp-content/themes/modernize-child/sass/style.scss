@@ -9,12 +9,32 @@ Author URI: http://goodlayers.com
 
 @import url("../modernize/style.css");
 
+// MIXINS
+@mixin heading-shadow {
+  text-shadow: 2px 2px 0px #000;
+  filter: dropshadow(color=#fff, offx=2, offy=2);
+}
+@mixin book-shape {
+  // slightly rounded corners
+  $borderRadius: 4px;
+  -webkit-border-radius: $borderRadius;
+  border-radius: $borderRadius;
+  //drop shadow
+  $blackAlpha: rgba(5,5,7,.8);
+  -webkit-box-shadow:  10px 10px 5px 5px $blackAlpha;
+  box-shadow:  10px 10px 5px 5px $blackAlpha;
+}
+
+
 // FONTS (Google fonts set in Modernize theme)
 $siteTitleFont: 'Permanent Marker',Verdana, Arial,  sans-serif;
 $siteSubtitleFont: 'Walter Turncoat', Verdana, Arial,  sans-serif;
-$stunningTitle: 'Kaushan Script', Verdana, Arial,  sans-serif;
-$headingFont: 'Ruda', Verdana, Arial,  sans-serif;
-$bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
+//$stunningTitle: 'Kaushan Script', Verdana, Arial,  sans-serif;
+$stunningTitle: $siteTitleFont;
+$headingFont: 'Valeria Round', Verdana, Arial,  sans-serif;
+//$headingFont: $siteSubtitleFont;
+//$bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
+$bodyFont: $headingFont;
 $navFont: $siteSubtitleFont;
 
 /*
@@ -29,6 +49,7 @@ $cream: lighten(rgb(255,243,190),5%);
 $blue: rgb(50,87,106);
 $white: lighten($cream, 10%);
 $orange: darken(rgb(238,125,48),10%);
+$green: rgb(123,145,2);
 
 $background: lighten($black,15%);
 $headerColor: $orange;
@@ -43,30 +64,16 @@ $mobileNavBackground: $cream;
 $navBackground: $black;
 $calendarBorder: lighten($black, 40%);
 
-// MIXINS
-@mixin book-shape {
-  // slightly rounded corners
-  $borderRadius: 4px;
-  -webkit-border-radius: $borderRadius;
-  border-radius: $borderRadius;
-
-  //drop shadow
-  $blackAlpha: rgba(5,5,7,.8);
-  -webkit-box-shadow:  10px 10px 5px 5px $blackAlpha;
-  box-shadow:  10px 10px 5px 5px $blackAlpha;
-}
-
-
 
 img {
   max-width: 100%;
 }
 // HEADINGS
 
-h1.stunning-text-title{ font-family: $stunningTitle;} // for all h1 tags
+h1.stunning-text-title{ color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
 h1.gdl-divider{ border:none;}
 
-h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; }
+h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 600; color:$blue}
 
 h1{ font-size: 34px; }
 h2{ font-size: 25px; margin-top:24px;}
@@ -176,8 +183,7 @@ div.left-sidebar-wrapper .custom-sidebar-title{
   h1 {
     font-family: $siteTitleFont;
     font-size: 26px;
-    text-shadow: 2px 2px 0px #000;
-    filter: dropshadow(color=#fff, offx=2, offy=2);
+    @include heading-shadow;
     margin:10px 0 0 0;
     color: $headerColor;
   }

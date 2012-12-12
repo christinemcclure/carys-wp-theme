@@ -11,8 +11,8 @@ Author URI: http://goodlayers.com
 
 // MIXINS
 @mixin heading-shadow {
-  text-shadow: 2px 2px 0px #000;
-  filter: dropshadow(color=#fff, offx=2, offy=2);
+  text-shadow: 3px 3px 0px #000;
+  filter: dropshadow(color=#fff, offx=3, offy=3);
 }
 @mixin book-shape {
   // slightly rounded corners
@@ -56,7 +56,7 @@ $headerColor: $orange;
 $pageColor: $cream;
 $footerColor: $black;
 $linkColor: $orange;
-$linkHoverColor: $red;
+$linkHoverColor: darken($green,10%);
 $footerBackground: $orange;
 $footerText: $blue;
 $navColor: $black;
@@ -70,17 +70,17 @@ img {
 }
 // HEADINGS
 
-h1.stunning-text-title{ color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
+h1.stunning-text-title{ font-size:48px; color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
 h1.gdl-divider{ border:none;}
 
-h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 600; color:$blue}
+h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 800; color:$green}
 
-h1{ font-size: 34px; }
-h2{ font-size: 25px; margin-top:24px;}
-h3{ font-size: 20px; }
-h4{ font-size: 18px; }
-h5{ font-size: 16px; }
-h6{ font-size: 15px; }
+h1{ font-size: 44px; }
+h2{ font-size: 24px; margin-top:24px; color:darken($blue,5%);}
+h3{ font-size: 18px; }
+h4{ font-size: 16px; }
+h5{ font-size: 14px; }
+h6{ font-size: 12px; }
 
 
 // BODY
@@ -113,7 +113,6 @@ body {
   a:hover{ color: $linkHoverColor; }
 
   h1.stunning-text-title {
-    font-size:40px;
     margin: 0 0 0 -35px;
   }
   .container {

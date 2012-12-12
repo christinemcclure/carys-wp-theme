@@ -36,8 +36,8 @@ $pageColor: $cream;
 $footerColor: $black;
 $linkColor: $orange;
 $linkHoverColor: $red;
-$footerBackground: $black;
-$footerText: $yellow;
+$footerBackground: $orange;
+$footerText: $blue;
 $navColor: $black;
 $mobileNavBackground: $cream;
 $navBackground: $black;
@@ -196,19 +196,22 @@ div.left-sidebar-wrapper .custom-sidebar-title{
 //FOOTER
 .footer-wrapper{
   clear:both;
+  margin: 30px 0 0 0;
   max-width: 980px; // need this to keep box from popping out of container
   text-align: center;
-  color: $white;
-  background: $black;
+  color: $black;
   font-size:14px;
   line-height:14px;
-
+        background-image: url('images/nav-border.png');
+        background-size:960px 100%;
+        background-repeat: no-repeat;
+        background-position: bottom center;
   div {
     border:none;
     width: 90%;
     margin: 0 auto;
-    padding: 10px;
-    p{margin: 10px 0;}
+    padding: 4px;
+    p{margin: 2px 0;}
   }
   #footer2 {
     width: 100px;

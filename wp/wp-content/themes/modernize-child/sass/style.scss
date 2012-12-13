@@ -292,6 +292,12 @@ ul.booze {
   h4{color:$blue;}
 }
 
+// blog posts
+#blog-item-holder {
+  .blog-item2 {padding: 0;}
+  .blog-thumbnail-info {font-size:14px;color:$blue;margin:-10px 0 20px -20px;}
+}
+
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 770px) {
   #header{

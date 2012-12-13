@@ -356,60 +356,71 @@ ul.booze li {
   color: #32576a;
 }
 
+/* line 297, sass/style.scss */
+#blog-item-holder .blog-item2 {
+  padding: 0;
+}
+/* line 298, sass/style.scss */
+#blog-item-holder .blog-thumbnail-info {
+  font-size: 14px;
+  color: #32576a;
+  margin: -10px 0 20px -20px;
+}
+
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 770px) {
-  /* line 298, sass/style.scss */
+  /* line 304, sass/style.scss */
   #header h1 {
     font-size: 32px;
     margin: 10px 0 10px 0;
     text-shadow: 4px 4px 0px #000;
     filter: dropshadow(color=white, offx=4, offy=4);
   }
-  /* line 304, sass/style.scss */
+  /* line 310, sass/style.scss */
   #header p {
     font-size: 16px;
     margin: 10px 0 30px 0;
   }
 }
 @media screen and (min-width: 770px) {
-  /* line 312, sass/style.scss */
+  /* line 318, sass/style.scss */
   #header {
     background-image: url("images/header.png");
     text-align: left;
   }
-  /* line 315, sass/style.scss */
+  /* line 321, sass/style.scss */
   #header h1 {
     font-size: 48px;
     margin: 50px 0 10px 10px;
   }
-  /* line 319, sass/style.scss */
+  /* line 325, sass/style.scss */
   #header p {
     font-size: 18px;
     margin: 20px 0 40px 40px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 328, sass/style.scss */
+  /* line 334, sass/style.scss */
   #header h1 {
     font-size: 58px;
     margin: 50px 0 10px 20px;
   }
-  /* line 332, sass/style.scss */
+  /* line 338, sass/style.scss */
   #header p {
     font-size: 22px;
     margin: 20px 0 40px 60px;
   }
 
-  /* line 339, sass/style.scss */
+  /* line 345, sass/style.scss */
   div.responsive-menu-wrapper {
     display: none;
   }
 
-  /* line 342, sass/style.scss */
+  /* line 348, sass/style.scss */
   div.navigation-wrapper {
     display: block;
   }
-  /* line 344, sass/style.scss */
+  /* line 350, sass/style.scss */
   div.navigation-wrapper #menu-main-1 {
     font-size: 13px;
     width: 940px;
@@ -421,63 +432,63 @@ ul.booze li {
     background-repeat: no-repeat;
     background-position: top center;
   }
-  /* line 354, sass/style.scss */
+  /* line 360, sass/style.scss */
   div.navigation-wrapper #menu-main-1 li {
     margin: 10px 0 0 0;
   }
 
-  /* line 359, sass/style.scss */
+  /* line 365, sass/style.scss */
   .footer-wrapper {
     overflow: hidden;
   }
-  /* line 361, sass/style.scss */
+  /* line 367, sass/style.scss */
   .footer-wrapper p {
     text-align: left;
   }
-  /* line 362, sass/style.scss */
+  /* line 368, sass/style.scss */
   .footer-wrapper #footer1 {
     width: 50%;
     float: left;
   }
-  /* line 367, sass/style.scss */
+  /* line 373, sass/style.scss */
   .footer-wrapper #footer2 {
     width: 10%;
     margin: 20px 0 0 0;
     float: left;
   }
-  /* line 373, sass/style.scss */
+  /* line 379, sass/style.scss */
   .footer-wrapper #footer3 {
     width: 25%;
     float: right;
     margin: -70px 0 0 0;
   }
-  /* line 377, sass/style.scss */
+  /* line 383, sass/style.scss */
   .footer-wrapper #footer3 p {
     text-align: right;
   }
 
-  /* line 381, sass/style.scss */
+  /* line 387, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
   /*Home Page*/
-  /* line 389, sass/style.scss */
+  /* line 395, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 395, sass/style.scss */
+  /* line 401, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 402, sass/style.scss */
+  /* line 408, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -485,7 +496,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 409, sass/style.scss */
+  /* line 415, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -493,7 +504,7 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 415, sass/style.scss */
+  /* line 421, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
@@ -501,7 +512,7 @@ ul.booze li {
     text-align: left;
     margin: 20px 0 0 0;
   }
-  /* line 421, sass/style.scss */
+  /* line 427, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

@@ -108,7 +108,11 @@ html {
 
   .custom-sidebar {
     margin: 0 0 0 10px; // keep from bleeding into content
-    h3 {color:$blue;}
+    h3 {color:$blue; margin:0;}
+    .gdl-divider ul {margin: -20px 0 0 0;}
+    h4, li{ margin: 0; font-size:14px;}
+    p{margin:0; font-size: 12px;}
+    li:last-child {margin: 0 0 60px 0;}
   }
 }
 

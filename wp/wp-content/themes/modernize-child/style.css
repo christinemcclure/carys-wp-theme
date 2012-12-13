@@ -34,7 +34,7 @@ div.custom-sidebar ul li li:last-child, blockquote, .gdl-divider + .gdl-divider,
 }
 
 /* line 76, sass/style.scss */
-.blog-thumbnail-comment {
+.blog-thumbnail-comment, .single-thumbnail-comment {
   display: none;
 }
 
@@ -140,11 +140,11 @@ html {
 }
 
 /* line 124, sass/style.scss */
-.archive-wrapper {
+.archive-wrapper, .gdl-page-float-left {
   padding: 30px;
 }
 /* line 126, sass/style.scss */
-.archive-wrapper .blog-thumbnail-context {
+.archive-wrapper .blog-thumbnail-context, .archive-wrapper .single-content, .gdl-page-float-left .blog-thumbnail-context, .gdl-page-float-left .single-content {
   padding-right: 40px;
 }
 

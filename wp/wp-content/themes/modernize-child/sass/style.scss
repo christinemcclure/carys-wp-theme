@@ -73,7 +73,7 @@ div.custom-sidebar ul li li:last-child, blockquote, .gdl-divider + .gdl-divider,
 { border:none !important;}
 
 //hide comment link
-.blog-thumbnail-comment {display:none;}
+.blog-thumbnail-comment, .single-thumbnail-comment {display:none;}
 
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 800; color:$green}
 
@@ -121,9 +121,9 @@ html {
   .sixteen {margin: 0 40px 0 0;} // nudge right colum away from edge
 }
 
-.archive-wrapper {
+.archive-wrapper, .gdl-page-float-left {
   padding: 30px;
-  .blog-thumbnail-context {padding-right:40px;}
+  .blog-thumbnail-context, .single-content {padding-right:40px;}
 }
 
 

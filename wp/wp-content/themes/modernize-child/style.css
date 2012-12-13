@@ -94,101 +94,109 @@ html {
   box-shadow: 10px 10px 5px 5px rgba(5, 5, 7, 0.8);
 }
 
-/* line 106, sass/style.scss */
+/* line 103, sass/style.scss */
 .content-wrapper {
   background-image: url("images/page-top.png"), url("images/page-bottom.png"), url("images/page-middle.png");
   background-size: 100% auto;
   background-repeat: no-repeat, no-repeat, repeat-y;
   background-position: left top, left bottom, left 20px;
 }
+/* line 109, sass/style.scss */
+.content-wrapper .custom-sidebar {
+  margin: 0 0 0 10px;
+}
+/* line 111, sass/style.scss */
+.content-wrapper .custom-sidebar h3 {
+  color: #32576a;
+}
 
-/* line 114, sass/style.scss */
+/* line 116, sass/style.scss */
 body {
   font-size: 15px;
   font-family: "Valeria Round", Verdana, Arial, sans-serif;
 }
-/* line 117, sass/style.scss */
+/* line 119, sass/style.scss */
 body a {
   color: #d96312;
   font-weight: 900;
 }
-/* line 118, sass/style.scss */
+/* line 120, sass/style.scss */
 body a:hover {
   color: #505f01;
 }
-/* line 120, sass/style.scss */
+/* line 122, sass/style.scss */
 body h1.stunning-text-title {
   margin: 0 0 0 -35px;
 }
-/* line 123, sass/style.scss */
+/* line 125, sass/style.scss */
 body .container {
   padding: 10px;
 }
 
-/* line 132, sass/style.scss */
+/* line 134, sass/style.scss */
 .tiltLeft {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
 }
 
-/* line 135, sass/style.scss */
+/* line 137, sass/style.scss */
 .tiltRight {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
 }
 
-/* line 140, sass/style.scss */
+/* line 142, sass/style.scss */
 .border {
   padding: 20px;
   background: white url(images/vintage_speckles.png) repeat top left;
 }
 
-/* line 145, sass/style.scss */
+/* line 147, sass/style.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 146, sass/style.scss */
+/* line 148, sass/style.scss */
 .floatRight {
   float: right;
 }
 
-/* line 147, sass/style.scss */
+/* line 149, sass/style.scss */
 .clearRight {
   clear: right;
 }
 
-/* line 148, sass/style.scss */
+/* line 150, sass/style.scss */
 .clearLeft {
   clear: left;
 }
 
-/* line 149, sass/style.scss */
+/* line 151, sass/style.scss */
 .clearBoth {
   clear: both;
 }
 
-/* line 151, sass/style.scss */
+/* line 153, sass/style.scss */
 img.size-full {
   margin: 20px;
 }
 
-/* line 153, sass/style.scss */
+/* line 155, sass/style.scss */
 p.bumpDown {
   padding-bottom: 20px;
 }
 
-/* line 156, sass/style.scss */
+/* line 158, sass/style.scss */
 p.bumpUp {
   padding-top: 20px;
 }
 
-/* line 161, sass/style.scss */
+/* line 163, sass/style.scss */
 div.gallery-thumbnail-image img {
   width: 120px;
 }
 
-/* line 169, sass/style.scss */
+/* line 171, sass/style.scss */
 #header {
   background-image: url("images/header-mobile.png");
   background-repeat: no-repeat;
@@ -196,7 +204,7 @@ div.gallery-thumbnail-image img {
   background-position: top center;
   text-align: center;
 }
-/* line 175, sass/style.scss */
+/* line 177, sass/style.scss */
 #header h1 {
   font-family: "Permanent Marker", Verdana, Arial, sans-serif;
   font-size: 26px;
@@ -205,11 +213,11 @@ div.gallery-thumbnail-image img {
   margin: 10px 0 0 0;
   color: #d96312;
 }
-/* line 182, sass/style.scss */
+/* line 184, sass/style.scss */
 #header a:hover {
   color: #d96312;
 }
-/* line 183, sass/style.scss */
+/* line 185, sass/style.scss */
 #header p {
   font-family: "Walter Turncoat", Verdana, Arial, sans-serif;
   font-size: 12px;
@@ -218,7 +226,7 @@ div.gallery-thumbnail-image img {
   color: #050507;
 }
 
-/* line 197, sass/style.scss */
+/* line 199, sass/style.scss */
 .footer-wrapper {
   width: 960px;
   margin: 0 auto;
@@ -233,38 +241,38 @@ div.gallery-thumbnail-image img {
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-/* line 211, sass/style.scss */
+/* line 213, sass/style.scss */
 .footer-wrapper div p {
   margin: 2px 0;
 }
-/* line 213, sass/style.scss */
+/* line 215, sass/style.scss */
 .footer-wrapper #footer1 {
   margin: 10px 0 0 20px;
 }
-/* line 214, sass/style.scss */
+/* line 216, sass/style.scss */
 .footer-wrapper #footer2 {
   width: 100px;
   padding: 0 0 0 70px;
 }
-/* line 217, sass/style.scss */
+/* line 219, sass/style.scss */
 .footer-wrapper #footer2 a {
   width: 20%;
   float: left;
   padding: 0 0 20px 20%;
 }
-/* line 223, sass/style.scss */
+/* line 225, sass/style.scss */
 .footer-wrapper #footer3 {
   clear: left;
   padding: 16px 20px 0 0;
 }
 
-/* line 233, sass/style.scss */
+/* line 235, sass/style.scss */
 div.responsive-menu-wrapper {
   width: 80%;
   margin: 0 auto;
   display: block;
 }
-/* line 237, sass/style.scss */
+/* line 239, sass/style.scss */
 div.responsive-menu-wrapper #menu-main {
   font-family: "Valeria Round", Verdana, Arial, sans-serif;
   font-size: 18px;
@@ -272,34 +280,34 @@ div.responsive-menu-wrapper #menu-main {
   color: #050507;
 }
 
-/* line 245, sass/style.scss */
+/* line 247, sass/style.scss */
 div.navigation-wrapper {
   display: none;
 }
 
-/* line 248, sass/style.scss */
+/* line 250, sass/style.scss */
 #menu-main, #menu-main-1 {
   font-family: "Walter Turncoat", Verdana, Arial, sans-serif;
   font-size: 15px;
   font-weight: 800;
   color: #050507;
 }
-/* line 253, sass/style.scss */
+/* line 255, sass/style.scss */
 #menu-main a, #menu-main-1 a {
   color: #050507;
 }
-/* line 254, sass/style.scss */
+/* line 256, sass/style.scss */
 #menu-main a:hover, #menu-main-1 a:hover {
   color: #d96312;
 }
 
-/* line 263, sass/style.scss */
+/* line 265, sass/style.scss */
 .gce-page-list .gce-list p {
   /* Each piece of information in the list */
   margin: 0;
 }
 
-/* line 267, sass/style.scss */
+/* line 269, sass/style.scss */
 .gce-list li {
   list-style-type: none;
   margin: 20px 0;
@@ -307,78 +315,78 @@ div.navigation-wrapper {
   border-bottom: 1px solid #5a5a7e;
 }
 
-/* line 278, sass/style.scss */
+/* line 280, sass/style.scss */
 ul.booze li {
   margin: 4px 0;
 }
 
-/* line 282, sass/style.scss */
+/* line 284, sass/style.scss */
 #homeEvents ul, #homeEvents .gce-page-list li {
   border: none;
 }
-/* line 283, sass/style.scss */
+/* line 285, sass/style.scss */
 #homeEvents p.bumpDown {
   margin-top: 20px;
 }
-/* line 284, sass/style.scss */
+/* line 286, sass/style.scss */
 #homeEvents h4 {
   color: #32576a;
 }
 
 /* RESPONSIVE SETTINGS */
 @media screen and (min-width: 770px) {
-  /* line 290, sass/style.scss */
+  /* line 292, sass/style.scss */
   #header h1 {
     font-size: 32px;
     margin: 10px 0 10px 0;
     text-shadow: 4px 4px 0px #000;
     filter: dropshadow(color=white, offx=4, offy=4);
   }
-  /* line 296, sass/style.scss */
+  /* line 298, sass/style.scss */
   #header p {
     font-size: 16px;
     margin: 10px 0 30px 0;
   }
 }
 @media screen and (min-width: 770px) {
-  /* line 304, sass/style.scss */
+  /* line 306, sass/style.scss */
   #header {
     background-image: url("images/header.png");
     text-align: left;
   }
-  /* line 307, sass/style.scss */
+  /* line 309, sass/style.scss */
   #header h1 {
     font-size: 48px;
     margin: 50px 0 10px 10px;
   }
-  /* line 311, sass/style.scss */
+  /* line 313, sass/style.scss */
   #header p {
     font-size: 18px;
     margin: 20px 0 40px 40px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 320, sass/style.scss */
+  /* line 322, sass/style.scss */
   #header h1 {
     font-size: 58px;
     margin: 50px 0 10px 20px;
   }
-  /* line 324, sass/style.scss */
+  /* line 326, sass/style.scss */
   #header p {
     font-size: 22px;
     margin: 20px 0 40px 60px;
   }
 
-  /* line 331, sass/style.scss */
+  /* line 333, sass/style.scss */
   div.responsive-menu-wrapper {
     display: none;
   }
 
-  /* line 334, sass/style.scss */
+  /* line 336, sass/style.scss */
   div.navigation-wrapper {
     display: block;
   }
-  /* line 336, sass/style.scss */
+  /* line 338, sass/style.scss */
   div.navigation-wrapper #menu-main-1 {
     font-size: 13px;
     width: 940px;
@@ -390,63 +398,63 @@ ul.booze li {
     background-repeat: no-repeat;
     background-position: top center;
   }
-  /* line 346, sass/style.scss */
+  /* line 348, sass/style.scss */
   div.navigation-wrapper #menu-main-1 li {
     margin: 10px 0 0 0;
   }
 
-  /* line 351, sass/style.scss */
+  /* line 353, sass/style.scss */
   .footer-wrapper {
     overflow: hidden;
   }
-  /* line 353, sass/style.scss */
+  /* line 355, sass/style.scss */
   .footer-wrapper p {
     text-align: left;
   }
-  /* line 354, sass/style.scss */
+  /* line 356, sass/style.scss */
   .footer-wrapper #footer1 {
     width: 50%;
     float: left;
   }
-  /* line 359, sass/style.scss */
+  /* line 361, sass/style.scss */
   .footer-wrapper #footer2 {
     width: 10%;
     margin: 20px 0 0 0;
     float: left;
   }
-  /* line 365, sass/style.scss */
+  /* line 367, sass/style.scss */
   .footer-wrapper #footer3 {
     width: 25%;
     float: right;
     margin: -70px 0 0 0;
   }
-  /* line 369, sass/style.scss */
+  /* line 371, sass/style.scss */
   .footer-wrapper #footer3 p {
     text-align: right;
   }
 
-  /* line 373, sass/style.scss */
+  /* line 375, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;
   }
 
   /*Home Page*/
-  /* line 381, sass/style.scss */
+  /* line 383, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 387, sass/style.scss */
+  /* line 389, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 0 0 40px 5%;
   }
 
-  /* line 394, sass/style.scss */
+  /* line 396, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -454,7 +462,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 401, sass/style.scss */
+  /* line 403, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -462,7 +470,7 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 407, sass/style.scss */
+  /* line 409, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
@@ -470,7 +478,7 @@ ul.booze li {
     text-align: left;
     margin: 20px 0 0 0;
   }
-  /* line 413, sass/style.scss */
+  /* line 415, sass/style.scss */
   #jeepers h4 {
     font-size: 90%;
     font-style: italic;

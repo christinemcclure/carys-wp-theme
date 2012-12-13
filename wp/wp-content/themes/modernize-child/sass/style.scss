@@ -99,15 +99,17 @@ html {
   padding: 40px;
   @include book-shape;
 }
-.content-wrapper {
-
-}
 
 .content-wrapper{
   background-image: url('images/page-top.png'),url('images/page-bottom.png'),url('images/page-middle.png');
   background-size: 100% auto;
   background-repeat: no-repeat, no-repeat, repeat-y;
   background-position: left top, left bottom, left 20px;
+
+  .custom-sidebar {
+    margin: 0 0 0 10px; // keep from bleeding into content
+    h3 {color:$blue;}
+  }
 }
 
 

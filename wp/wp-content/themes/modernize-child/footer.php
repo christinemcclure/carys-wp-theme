@@ -4,7 +4,7 @@
            <strong>Cary's Lounge</strong>: 2251 West Devon Ave., Chicago, IL 60659  (773) 743-5737
         </p>
         <p>
-        <strong>Hours</strong>: Monday - Friday 12pm-2am; Saturday: 12pm-3am; Sunday: 11am-2am
+        <strong>Hours</strong>: Mon-Fri 12pm-2am; Saturday: 12pm-3am; Sunday: 11am-2am
         </p>
       </div>
       <div id="footer2">

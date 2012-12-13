@@ -20,6 +20,7 @@ img {
 /* line 69, sass/style.scss */
 h1.stunning-text-title {
   font-size: 48px;
+  line-height: 48px;
   color: #7b9102;
   font-family: "Permanent Marker", Verdana, Arial, sans-serif;
   text-shadow: 3px 3px 0px #000;
@@ -54,7 +55,7 @@ h1 {
 /* line 81, sass/style.scss */
 h2 {
   font-size: 24px;
-  margin-top: 24px;
+  line-height: 24px;
   color: #2a4959;
 }
 

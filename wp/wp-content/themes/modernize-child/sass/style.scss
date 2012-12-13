@@ -66,7 +66,7 @@ img {
   max-width: 100%;
 }
 // hide stupid dividers
-h1.stunning-text-title{ font-size:48px; color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
+h1.stunning-text-title{ font-size:48px; line-height:48px; color:$green; font-family: $stunningTitle; @include heading-shadow;} // for all h1 tags
 .blog-thumbnail-info, .gce-list li,div.gce-widget-list li.gce-feed-3, div.custom-sidebar ul li,
 div.custom-sidebar ul li li:last-child, blockquote, .gdl-divider + .gdl-divider, .gdl-divider, h1.gdl-divider,
 .content-wrapper .gdl-divider, div.left-sidebar-wrapper .custom-sidebar-title
@@ -78,7 +78,7 @@ div.custom-sidebar ul li li:last-child, blockquote, .gdl-divider + .gdl-divider,
 h2, h3, h4, h5, h6, .gdl-title{ font-family: $headingFont; font-weight: 800; color:$green}
 
 h1{ font-size: 44px;line-height:44px; }
-h2{ font-size: 24px; margin-top:24px; color:darken($blue,5%);}
+h2{ font-size: 24px; line-height:24px; color:darken($blue,5%);}
 h3{ font-size: 18px; }
 h4{ font-size: 16px; }
 h5{ font-size: 14px; }

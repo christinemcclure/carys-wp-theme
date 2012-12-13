@@ -543,6 +543,7 @@ ul.booze li {
   }
   /* line 441, sass/style.scss */
   #jeepers h4 {
+    color: #32576a;
     font-size: 90%;
     font-style: italic;
     margin: 0 0 10px 20px;

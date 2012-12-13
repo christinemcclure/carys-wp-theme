@@ -27,7 +27,7 @@ wp/wp-content/uploads/
 
 # theme info to exclude
 wp/wp-content/themes/twenty*
-wp/wp-content/themes/*.php
+
 
 
 ### Exclude existing 10 files

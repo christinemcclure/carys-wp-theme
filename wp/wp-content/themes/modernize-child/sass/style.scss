@@ -118,6 +118,11 @@ html {
   .sixteen {margin: 0 40px 0 0;} // nudge right colum away from edge
 }
 
+.archive-wrapper {
+  padding: 30px;
+  .blog-thumbnail-context {padding-right:40px;}
+}
+
 
 body {
   font-size: 15px;
@@ -379,7 +384,7 @@ ul.booze {
     #footer3 {
         width:25%;
         float:right;
-        margin: -70px 0 0 0;
+        margin: -68px 0 0 0;
         p {text-align:right;}
     }
   }

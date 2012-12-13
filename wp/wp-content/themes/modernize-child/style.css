@@ -380,22 +380,19 @@ ul.booze li {
   }
   /* line 336, sass/style.scss */
   div.navigation-wrapper #menu-main-1 {
+    font-size: 13px;
     width: 940px;
     height: 60px;
-    margin: 20px 0 10px 0;
-    padding: 0 20px;
+    margin: 20px 0 10px 20px;
+    padding: 0 0;
     background-image: url("images/nav-border.png");
-    background-size: contain auto;
+    background-size: 940px auto;
     background-repeat: no-repeat;
     background-position: top center;
   }
-  /* line 345, sass/style.scss */
-  div.navigation-wrapper #menu-main-1 li {
-    margin: 12px 0 0 0;
-  }
   /* line 346, sass/style.scss */
-  div.navigation-wrapper #menu-main-1 li:first-child {
-    margin-left: 30px;
+  div.navigation-wrapper #menu-main-1 li {
+    margin: 10px 0 0 0;
   }
 
   /* line 351, sass/style.scss */

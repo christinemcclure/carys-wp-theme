@@ -16,24 +16,21 @@ Author URI: http://goodlayers.com
 }
 @mixin book-shape {
   // slightly rounded corners
-  $borderRadius: 4px;
+  $borderRadius: 6px;
   -webkit-border-radius: $borderRadius;
   border-radius: $borderRadius;
   //drop shadow
   $blackAlpha: rgba(5,5,7,.8);
-  -webkit-box-shadow:  10px 10px 5px 5px $blackAlpha;
-  box-shadow:  10px 10px 5px 5px $blackAlpha;
+  -webkit-box-shadow:  10px 10px 8px 8px $blackAlpha;
+  box-shadow:  10px 10px 8px 8px $blackAlpha;
 }
 
 
 // FONTS (Google fonts set in Modernize theme)
 $siteTitleFont: 'Permanent Marker',Verdana, Arial,  sans-serif;
 $siteSubtitleFont: 'Walter Turncoat', Verdana, Arial,  sans-serif;
-//$stunningTitle: 'Kaushan Script', Verdana, Arial,  sans-serif;
 $stunningTitle: $siteTitleFont;
 $headingFont: 'Valeria Round', Verdana, Arial,  sans-serif;
-//$headingFont: $siteSubtitleFont;
-//$bodyFont: 'PT Sans', 'Times New Roman', Times, serif;
 $bodyFont: $headingFont;
 $navFont: $siteSubtitleFont;
 
@@ -98,6 +95,12 @@ html {
   width: 1000px;
   padding: 40px;
   @include book-shape;
+/*
+  background-image: url('images/background.png');
+  background-repeat: repeat;
+  background-size:auto auto;
+  background-position: top left;
+*/
 }
 
 .content-wrapper{

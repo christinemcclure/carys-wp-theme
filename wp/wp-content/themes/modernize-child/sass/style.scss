@@ -330,6 +330,7 @@ ul.booze {
   ul, .gce-page-list li{border:none;}
   p.bumpDown {margin-top:20px;}
   h4{color:$blue;}
+  ul li + li{display:none;} // hide second event, if one displays
 }
 
 // blog posts

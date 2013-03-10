@@ -62,9 +62,13 @@ $navBackground: $black;
 $calendarBorder: lighten($black, 40%);
 
 
-.columns, .gdl-page-content img {
-  max-width: 90%;
+.columns{
   margin: 20px;
+}
+
+.gdl-page-content img {
+  max-width: 90%;
+  text-align:center;
 }
 
 // hide stupid dividers

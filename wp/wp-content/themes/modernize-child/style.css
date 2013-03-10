@@ -421,23 +421,23 @@ div.navigation-wrapper {
   padding: 0;
   border-bottom: 1px solid #5a5a7e;
 }
+/* line 320, sass/style.scss */
+.gce-list li h4 {
+  color: #32576a;
+}
 
-/* line 326, sass/style.scss */
+/* line 327, sass/style.scss */
 ul.booze li {
   margin: 4px 0;
 }
 
-/* line 330, sass/style.scss */
+/* line 331, sass/style.scss */
 #homeEvents ul, #homeEvents .gce-page-list li {
   border: none;
 }
-/* line 331, sass/style.scss */
+/* line 332, sass/style.scss */
 #homeEvents p.bumpDown {
   margin-top: 20px;
-}
-/* line 332, sass/style.scss */
-#homeEvents h4 {
-  color: #32576a;
 }
 /* line 333, sass/style.scss */
 #homeEvents ul li + li {

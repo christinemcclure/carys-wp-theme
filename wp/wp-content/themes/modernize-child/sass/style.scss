@@ -317,6 +317,7 @@ div.gallery-thumbnail-image img{
 	margin:20px 0;
 	padding:0;
   border-bottom: 1px solid $calendarBorder;
+  h4{color:$blue;}
 }
 
 
@@ -329,7 +330,6 @@ ul.booze {
 #homeEvents{
   ul, .gce-page-list li{border:none;}
   p.bumpDown {margin-top:20px;}
-  h4{color:$blue;}
   ul li + li{display:none;} // hide second event, if one displays
 }
 

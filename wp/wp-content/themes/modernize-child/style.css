@@ -245,7 +245,7 @@ div.gallery-thumbnail-image img {
 
 /* line 194, sass/style.scss */
 #header {
-  background-image: url("images/header-background.png");
+  background-image: url("images/header-mobile-long.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: top center;
@@ -496,81 +496,87 @@ ul.booze li {
 }
 
 /* RESPONSIVE SETTINGS */
+@media screen and (min-width: 500px) {
+  /* line 372, sass/style.scss */
+  #header {
+    background-image: url("images/header-mobile.png");
+  }
+}
 @media screen and (min-width: 770px) {
-  /* line 375, sass/style.scss */
+  /* line 380, sass/style.scss */
   .gdl-page-content img {
     max-width: 100%;
   }
 
-  /* line 380, sass/style.scss */
+  /* line 385, sass/style.scss */
   h1.stunning-text-title {
     font-size: 48px;
     line-height: 48px;
   }
 
-  /* line 381, sass/style.scss */
+  /* line 386, sass/style.scss */
   h1 {
     font-size: 44px;
     line-height: 44px;
   }
 
-  /* line 382, sass/style.scss */
+  /* line 387, sass/style.scss */
   h2 {
     font-size: 24px;
     line-height: 24px;
   }
 
-  /* line 383, sass/style.scss */
+  /* line 388, sass/style.scss */
   h3 {
     font-size: 18px;
   }
 
-  /* line 384, sass/style.scss */
+  /* line 389, sass/style.scss */
   h4 {
     font-size: 16px;
   }
 
-  /* line 385, sass/style.scss */
+  /* line 390, sass/style.scss */
   h5 {
     font-size: 14px;
   }
 
-  /* line 386, sass/style.scss */
+  /* line 391, sass/style.scss */
   h6 {
     font-size: 12px;
   }
 
-  /* line 388, sass/style.scss */
+  /* line 393, sass/style.scss */
   h1.stunning-text-title {
     margin: 0 0 0 -35px;
   }
 
-  /* line 393, sass/style.scss */
+  /* line 398, sass/style.scss */
   h2 {
     margin-top: 40px;
   }
 
-  /* line 394, sass/style.scss */
+  /* line 399, sass/style.scss */
   .gcalendar h2 {
     margin-top: 0;
   }
 
   /*Home Page -- switch to floated elements */
-  /* line 399, sass/style.scss */
+  /* line 404, sass/style.scss */
   #intro {
     clear: both;
     width: 80%;
     margin: 0 0 30px 10%;
   }
 
-  /* line 405, sass/style.scss */
+  /* line 410, sass/style.scss */
   #postcard {
     width: 40%;
     float: left;
     margin: 40px 0 20px 5%;
   }
 
-  /* line 412, sass/style.scss */
+  /* line 417, sass/style.scss */
   #quotes {
     width: 45%;
     float: left;
@@ -578,7 +584,7 @@ ul.booze li {
     text-align: right;
   }
 
-  /* line 419, sass/style.scss */
+  /* line 424, sass/style.scss */
   #homeEvents {
     width: 60%;
     float: left;
@@ -587,7 +593,7 @@ ul.booze li {
     margin: 40px 0 0 0;
   }
 
-  /* line 426, sass/style.scss */
+  /* line 431, sass/style.scss */
   #jeepers {
     width: 30%;
     float: right;
@@ -595,40 +601,40 @@ ul.booze li {
     text-align: left;
     margin: 20px 30px 0 0;
   }
-  /* line 432, sass/style.scss */
+  /* line 437, sass/style.scss */
   #jeepers h4 {
     text-align: left;
     margin: 0 0 20px 40px;
   }
 }
 @media screen and (min-width: 1100px) {
-  /* line 441, sass/style.scss */
+  /* line 446, sass/style.scss */
   #header {
     background-image: url("images/header.png");
     text-align: left;
   }
-  /* line 444, sass/style.scss */
+  /* line 449, sass/style.scss */
   #header h1 {
     font-size: 58px;
     line-height: 58px;
     margin: 30px 0 10px 20px;
   }
-  /* line 449, sass/style.scss */
+  /* line 454, sass/style.scss */
   #header p {
     font-size: 22px;
     margin: 0px 0 40px 60px;
   }
 
-  /* line 456, sass/style.scss */
+  /* line 461, sass/style.scss */
   div.responsive-menu-wrapper {
     display: none;
   }
 
-  /* line 459, sass/style.scss */
+  /* line 464, sass/style.scss */
   div.navigation-wrapper {
     display: block;
   }
-  /* line 461, sass/style.scss */
+  /* line 466, sass/style.scss */
   div.navigation-wrapper #menu-main-1 {
     font-size: 13px;
     width: 960px;
@@ -640,16 +646,16 @@ ul.booze li {
     background-repeat: no-repeat;
     background-position: top center;
   }
-  /* line 471, sass/style.scss */
+  /* line 476, sass/style.scss */
   div.navigation-wrapper #menu-main-1 li {
     margin: 12px 0 0 0;
   }
-  /* line 472, sass/style.scss */
+  /* line 477, sass/style.scss */
   div.navigation-wrapper #menu-main-1 li:first-child {
     margin-left: 5px;
   }
 
-  /* line 477, sass/style.scss */
+  /* line 482, sass/style.scss */
   .footer-wrapper {
     width: 940px;
     margin-top: 10px;
@@ -663,48 +669,48 @@ ul.booze li {
     padding: 20px;
     color: #050507;
   }
-  /* line 489, sass/style.scss */
+  /* line 494, sass/style.scss */
   .footer-wrapper p {
     text-align: left;
   }
-  /* line 490, sass/style.scss */
+  /* line 495, sass/style.scss */
   .footer-wrapper div {
     clear: none;
     float: left;
     line-height: 14px;
     margin: 0;
   }
-  /* line 496, sass/style.scss */
+  /* line 501, sass/style.scss */
   .footer-wrapper #footer1 {
     margin: 0;
     width: 60%;
     float: left;
   }
-  /* line 502, sass/style.scss */
+  /* line 507, sass/style.scss */
   .footer-wrapper #footer2 {
     width: 10%;
     margin: 0 0 0 0;
   }
-  /* line 505, sass/style.scss */
+  /* line 510, sass/style.scss */
   .footer-wrapper #footer2 a {
     margin-top: 6px;
   }
-  /* line 506, sass/style.scss */
+  /* line 511, sass/style.scss */
   .footer-wrapper #footer2 a:first-child {
     margin-right: 10px;
   }
-  /* line 509, sass/style.scss */
+  /* line 514, sass/style.scss */
   .footer-wrapper #footer3 {
     width: 25%;
     float: right;
     margin-bottom: 0;
   }
-  /* line 512, sass/style.scss */
+  /* line 517, sass/style.scss */
   .footer-wrapper #footer3 p {
     text-align: right;
   }
 
-  /* line 517, sass/style.scss */
+  /* line 522, sass/style.scss */
   .body-wrapper {
     margin-top: 50px;
     margin-bottom: 40px;

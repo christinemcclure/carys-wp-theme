@@ -192,7 +192,7 @@ div.gallery-thumbnail-image img{
 // HEADER
 
 #header {
-  background-image: url('images/header-background.png');
+  background-image: url('images/header-mobile-long.png');
   background-repeat: no-repeat;
   background-size:100% 100%;
   background-position: top center;
@@ -368,6 +368,11 @@ ul.booze {
 
 /* RESPONSIVE SETTINGS */
 
+@media screen and (min-width: 500px){
+  #header {
+    background-image: url('images/header-mobile.png');
+  }
+}
 
 @media screen and (min-width: 770px) {
 
